@@ -1,478 +1,169 @@
-import React, { useEffect } from "react";
-import { Link } from "gatsby";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import { graphql, useStaticQuery } from "gatsby";
-import styled, { keyframes } from "styled-components";
-import Footer from "../components/Footer";
-import YandexMap from "../components/YandexMap";
-import ImageSlider from "../components/ImageSlider";
+import * as React from "react"
+import { graphql, Link } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-const categories = [
-  { name: "Автокраны", image: "autocranes.png", description: "Мобильные краны для строительства.", path: "/category/autocranes" },
-  { name: "Автокраны полноприводные", image: "all-terrain-cranes.png", description: "Краны для работы в сложных условиях.", path: "/category/allterraincranes" },
-  { name: "Краны короткобазные", image: "short-base-cranes.png", description: "Компактные краны для узких пространств.", path: "/category/shortbasecranes" },
-  { name: "Краны гусеничные", image: "crawler-cranes.png", description: "Гусеничные краны для тяжелых работ.", path: "/category/crawlercranes" },
-  { name: "Краны гусеничные с телескопической стрелой", image: "telescopic-crawler-cranes.png", description: "Гибкие решения для строительства.", path: "/category/telescopiccrawlercranes" },
-  { name: "Манипуляторы", image: "manipulators.png", description: "Многофункциональные манипуляторы.", path: "/category/manipulators" },
-  { name: "Минипогрузчики", image: "skid-steer-loaders.png", description: "Компактные погрузчики для небольших задач.", path: "/category/skidsteerloaders" },
-  { name: "Экскаваторы", image: "excavators.png", description: "Экскаваторы для копательных работ.", path: "/category/excavators" },
-  { name: "Экскаватор грейферный", image: "clamshell-excavators.png", description: "Грейферные экскаваторы для точных операций.", path: "/category/clamshellexcavators" },
-  { name: "Бульдозеры", image: "bulldozers.png", description: "Тяжелая техника для землеройных работ.", path: "/category/bulldozers" },
-  { name: "Фронтальные погрузчики", image: "front-end-loaders.png", description: "Погрузчики для перемещения материалов.", path: "/category/frontendloaders" },
-];
+const IndexPage = ({ data }) => {
+  const veterans = data.allVeteransJson.nodes
+  const files = data.allFile.nodes
+  const webpFiles = data.allWebpFile?.nodes || []
+  const groupPhoto = data.groupPhoto ? getImage(data.groupPhoto) : null
+  const [searchTerm, setSearchTerm] = React.useState('')
+  const [activeTab, setActiveTab] = React.useState('alive') // 'alive' or 'fallen'
 
-const TelegramWidget = () => {
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://telegram.org/js/telegram-widget.js?22';
-    script.async = true;
-    script.setAttribute('data-telegram-post', 'zoomlionsu/4');
-    script.setAttribute('data-width', '100%');
-
-    const widgetContainer = document.getElementById('telegram-widget-container');
-    if (widgetContainer) {
-      widgetContainer.innerHTML = '';
-      widgetContainer.appendChild(script);
-    }
-
-    return () => {
-      if (widgetContainer && widgetContainer.contains(script)) {
-        widgetContainer.removeChild(script);
-      }
-    };
-  }, []);
-
-  return <div id="telegram-widget-container"></div>;
-};
-
-const IndexPage = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      allFile(filter: {sourceInstanceName: {eq: "images"}}) {
-        nodes {
-          base
-          childImageSharp {
-            gatsbyImageData(width: 300, placeholder: BLURRED, formats: [AUTO, WEBP])
-          }
-        }
-      }
-      galleryImages: allFile(
-        filter: {
-          sourceInstanceName: { eq: "images" }
-          relativeDirectory: { eq: "gallery" }
-        }
-      ) {
-        edges {
-          node {
-            childImageSharp {
-              gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, WEBP])
-            }
-          }
-        }
-      }
-    }
-  `);
-
-  const getImageByName = (name) => {
-    const match = data.allFile.nodes.find(({ base }) => base === name);
-    return match ? getImage(match.childImageSharp) : null;
+  // Save scroll position before navigating to veteran page
+  const handleVeteranClick = () => {
+    sessionStorage.setItem('mainPageScrollPosition', window.scrollY.toString());
   };
 
+  // Create a map of filename to image
+  const fileMap = {}
+  files.forEach(file => {
+    fileMap[file.name] = file
+  })
+
+  // Create a map for webp images
+  const webpMap = {}
+  webpFiles.forEach(file => {
+    webpMap[file.name] = file
+  })
+
+  // Filter veterans by tab and search term
+  const filteredVeterans = veterans.filter(veteran => {
+    const matchesSearch = veteran.name.toLowerCase().includes(searchTerm.toLowerCase())
+    const matchesTab = activeTab === 'fallen'
+      ? veteran.toBeKilled === 'true'
+      : veteran.toBeKilled !== 'true'
+    return matchesSearch && matchesTab
+  })
+
+  // Debug: show counts
+  console.log('Total veterans:', veterans.length, '| Filtered:', filteredVeterans.length, '| Tab:', activeTab)
+
   return (
-    <>
-      <Header>
-        <h1>Краны и спецтехника</h1>
-        <h2>Zoomlion</h2>
-        <ContactInfo>
-          <p>
-            <StyledLink href="https://t.me/gmitry">
-              <TelegramLogo src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png" alt="Telegram logo" />
-            </StyledLink>
-            <StyledLink href="https://wa.me/79133777508" target="_blank" rel="noopener noreferrer">
-              <WhatsappLogo src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png" alt="WhatsApp logo" />
-            </StyledLink>
-          </p>
-        </ContactInfo>
-      </Header>
-      
-      <PageLayout>
-        <LeftSidebar>
-          <CarouselContainer>
-            <ImageSlider images={data.galleryImages.edges} />
-          </CarouselContainer>
-          <h3>Услуги</h3>
-          <ServiceMenu>
-            <li><Link to="/under-construction/">Сервисное обслуживание</Link></li>
-            <li><Link to="/under-construction/">Аренда</Link></li>
-            <li><Link to="/under-construction/">Лизинг</Link></li>
-            <li><Link to="/under-construction/">Доставка</Link></li>
-          </ServiceMenu>
-        </LeftSidebar>
+    <main>
+      <header className="main-header">
+        <div className="container">
+          <h1>Деды Победы</h1>
+          <p className="subtitle">Сайт памяти фронтовиков</p>
+          <p className="stats">Предположительно, на войну ушли 616 уроженцев Травного</p>
+          <p className="stats">295 вернулись, а 321 — нет</p>
+        </div>
+      </header>
 
-        <MainContent>
-          <Grid>
-            {categories.map((category) => (
-              <Card key={category.name}>
-                <Link to={category.path}>
-                  <ImageWrapper>
-                    {getImageByName(category.image) ? (
-                      <GatsbyImage image={getImageByName(category.image)} alt={category.name} />
-                    ) : (
-                      <Placeholder>No Image</Placeholder>
-                    )}
-                  </ImageWrapper>
-                  <h3>{category.name}</h3>
-                  <p>{category.description}</p>
-                </Link>
-              </Card>
-            ))}
-          </Grid>
-        </MainContent>
+      {groupPhoto && (
+        <div className="group-photo-container">
+          <GatsbyImage
+            image={groupPhoto}
+            alt="Групповое фото фронтовиков"
+            className="group-photo"
+          />
+        </div>
+      )}
 
-        <RightSidebar>
-          <ContactsBlock>
-            <h3>Контакты</h3>
-            <ContactList>
-              <li><a href="tel:+7-383-380-71-28">+7-383-380-71-28</a></li>
-              <li><a href="tel:+7-913-377-75-08">+7-913-377-75-08</a></li>
-              <li><a href="mailto:zoomlionsib@yandex.ru">zoomlionsib@yandex.ru</a></li>
-            </ContactList>
-          </ContactsBlock>
-          <h3>Новости из Telegram</h3>
-          <TelegramWidget />
-        </RightSidebar>
+      <div className="container">
+        <div className="search-and-tabs">
+          <input
+            type="text"
+            placeholder="Поиск по имени..."
+            value={searchTerm}
+            onChange={e => setSearchTerm(e.target.value)}
+            className="search-input"
+            autofocus="autofocus"
+          />
 
-        <MapContainer>
-          <h3>Местоположение</h3>
-          <YandexMap />
-        </MapContainer>
+          {/* Tabs */}
+          <div className="tabs">
+            <button
+              className={`tab ${activeTab === 'alive' ? 'active' : ''}`}
+              onClick={() => setActiveTab('alive')}
+            >
+              Вернулись живыми
+            </button>
+            <button
+              className={`tab ${activeTab === 'fallen' ? 'active' : ''}`}
+              onClick={() => setActiveTab('fallen')}
+            >
+              Погибли
+            </button>
+          </div>
+        </div>
 
-      </PageLayout>
+        <div className="cards-grid">
+          {filteredVeterans.map((veteran, index) => {
+            // Get filename without extension
+            const photoName = veteran.photo.replace(/\.(jpg|jpeg|png|webp)$/i, '')
+            const file = fileMap[photoName]
+            const webpFile = webpMap[photoName]
+            const image = file ? getImage(file.childImageSharp) : null
 
-      <Footer
-        companyName="Зумлион Индустри"
-        websiteUrl="https://example.com"
-      />
-    </>
-  );
-};
+            return (
+              <Link
+                to={`/veteran/${veteran.slug}`}
+                key={index}
+                className="card"
+                onClick={handleVeteranClick}
+              >
+                {image ? (
+                  <GatsbyImage
+                    image={image}
+                    alt={veteran.name}
+                    className="card-image"
+                  />
+                ) : webpFile ? (
+                  <img
+                    src={webpFile.publicURL}
+                    alt={veteran.name}
+                    className="card-image"
+                  />
+                ) : (
+                  <div className="card-placeholder">
+                    Нет изображения
+                  </div>
+                )}
+                <div className="card-content">
+                  <h2 className="card-name">{veteran.name}</h2>
+                </div>
+              </Link>
+            )
+          })}
+        </div>
+      </div>
+    </main>
+  )
+}
 
-export default IndexPage;
-
-// --- Стили ---
-
-const CarouselContainer = styled.div`
-  @media (max-width: 1200px) {
-    display: none; // Скрываем карусель на мобильных устройствах
-  }
-`;
-
-const fadeIn = keyframes`
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-`;
-
-const PageLayout = styled.div`
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  grid-template-areas:
-    "left main right"
-    ". map .";
-  gap: 30px;
-  padding: 20px;
-  max-width: 1800px;
-  margin: 0 auto;
-  align-items: flex-start;
-
-  @media (max-width: 1200px) {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "main"
-      "left" // Эта область теперь будет содержать и меню, и карусель
-      "right"
-      "map";
-    gap: 15px;
-    padding: 20px 20px 10px 20px;
-  }
-`;
-
-const MainContent = styled.main`
-  grid-area: main;
-`;
-
-const LeftSidebar = styled.aside`
-  grid-area: left;
-  width: 280px;
-
-  @media (max-width: 1200px) {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  h3 {
-    text-align: center;
-    margin-top: 30px;
-  }
-`;
-
-const ContactsBlock = styled.div`
-  margin-bottom: 30px;
-`;
-
-const ContactList = styled.ul`
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: left;
-
-  li {
-    padding: 8px 0;
-    border-bottom: 1px solid #ddd;
-    font-size: 16px;
-    &:first-child {
-      border-top: 1px solid #ddd;
-    }
-  }
-
-  a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-    transition: color 0.2s ease-in-out;
-
-    &:hover {
-      color: rgb(164, 206, 78);
-    }
-  }
-`;
-
-const RightSidebar = styled.aside`
-  grid-area: right;
-  width: 320px;
-  h3 {
-    text-align: center;
-    margin-top: 0;
-  }
-  @media (max-width: 1200px) {
-    width: 100%;
-    max-width: 500px;
-    margin: 20px auto 0; // Убираем нижний отступ
-  }
-`;
-
-const MapContainer = styled.div`
-  grid-area: map;
-  h3 {
-    text-align: center;
-  }
-`;
-
-const ServiceMenu = styled.ul`
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: left;
-
-  li {
-    padding: 10px 0;
-    border-bottom: 1px solid #eee;
-    &:last-child {
-      border-bottom: none;
-    }
-  }
-
-  a {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    transition: color 0.2s ease-in-out;
-
-    &:hover {
-      color: rgb(164, 206, 78);
-    }
-  }
-`;
-
-const Header = styled.header`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background: linear-gradient(to right, #333 85%, #666);
-  color: white;
-
-  h1 {
-    margin: 0;
-    font-size: 24px;
-
-    @media (max-width: 480px) {
-      font-size: 20px;
-    }
-  }
-  
-  a {
-    text-decoration: none;
-    color: black;
-  }
-
-  h2 {
-    margin: 0;
-    font-size: 56px;
-    color: #006f3d;
-    font-weight: bold;
-    margin-left: 10px;
-    letter-spacing: 2px;
-    text-shadow: 
-      -1px -1px 0 #fff,
-       1px -1px 0 #fff,
-      -1px  1px 0 #fff,
-       1px  1px 0 #fff,
-       0 0 8px rgba(255, 255, 255, 0.6),
-       0 0 10px rgba(255, 255, 255, 0.5);
-    animation: ${fadeIn} 1s ease-in-out;
-  
-    @media (max-width: 480px) {
-      font-size: 32px;
-    }
-  
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(-10px);
+export const query = graphql`
+  query {
+    allVeteransJson {
+      nodes {
+        slug
+        name
+        photo
+        toBeKilled
       }
-      to {
-        opacity: 1;
-        transform: translateY(0);
+    }
+    allFile(filter: {sourceInstanceName: {eq: "dedy"}, extension: {regex: "/(jpg|jpeg|png)/"}}) {
+      nodes {
+        name
+        childImageSharp {
+          gatsbyImageData(width: 300, height: 500, layout: CONSTRAINED, placeholder: NONE)
+        }
+      }
+    }
+    allWebpFile: allFile(filter: {sourceInstanceName: {eq: "dedy"}, extension: {eq: "webp"}}) {
+      nodes {
+        name
+        publicURL
+      }
+    }
+    groupPhoto: file(name: {eq: "Group"}, sourceInstanceName: {eq: "dedy"}, relativeDirectory: {eq: "photo"}) {
+      childImageSharp {
+        gatsbyImageData(width: 1200, height: 800, placeholder: NONE)
       }
     }
   }
+`
 
-  @media (max-width: 480px) {
-    flex-direction: column;
-    text-align: center;
-  }
-`;
+export const Head = () => <title>Деды Победы</title>
 
-const ContactInfo = styled.div`
-  text-align: right;
-  font-size: 20px;
-  color: #00c851;
-  text-shadow: 0 0 10px rgba(0, 200, 81, 0.7);
-  letter-spacing: 1px;
-  padding: 5px 15px;
-  border-radius: 8px;
-
-  p {
-    margin: 5px 0;
-  }
-
-  @media (max-width: 480px) {
-    text-align: center;
-  }
-
-  @media (min-width: 481px) and (max-width: 768px) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    p {
-      margin: 0 10px;
-    }
-  }
-`;
-
-const Grid = styled.div`
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-`;
-
-const Card = styled.div`
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  background: #fff;
-
-  a {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    padding: 16px;
-  }
-
-  h3 {
-    margin: 10px 0;
-    font-size: 18px;
-  }
-
-  p {
-    font-size: 14px;
-    color: #555;
-  }
-`;
-
-const ImageWrapper = styled.div`
-  height: 200px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-`;
-
-const Placeholder = styled.div`
-  width: 100%;
-  height: 100%;
-  background: #eee;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  color: #888;
-  font-size: 14px;
-`;
-
-const TelegramLogo = styled.img`
-  height: 40px;
-  width: 40px;
-  margin-left: 10px;
-  vertical-align: middle;
-  transition: transform 0.3s ease;
-  &:hover {
-    transform: scale(1.1);
-  }
-`;
-
-const WhatsappLogo = styled.img`
-  height: 40px;
-  width: 40px;
-  margin-left: 10px;
-  vertical-align: middle;
-  transition: transform 0.3s ease;
-  &:hover {
-    transform: scale(1.1);
-  }
-`;
-
-const StyledLink = styled.a`
-  text-decoration: none;
-  display: inline-block;
-  vertical-align: middle;
-`;
-
-const ContactItem = styled.span`
-  & > a {
-    font-weight: bold;
-    transition: transform 0.3s ease, color 0.3s ease;
-    display: inline-block;
-    color: #00c851;
-
-    &:hover {
-      transform: scale(1.02);
-    }
-  }
-`;
+export default IndexPage

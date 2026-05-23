@@ -1,28 +1,58 @@
+/**
+ * @type {import('gatsby').GatsbyConfig}
+ */
 module.exports = {
   siteMetadata: {
-    title: "Краны и спецтехника",
-    description: "Каталог специализированной техники в Новосибирске.",
-    author: "@yourname",
+    title: `Деды победы`,
+    description: `Сайт памяти фронтовиков`,
+    siteUrl: `https://dedypobedy.ru`,
   },
   plugins: [
     `gatsby-plugin-image`,
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        maxConcurrency: 1,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-sharp`,
+      options: {
+        defaults: {
+          quality: 50,
+          breakpoints: 750,
+          placeholder: `blurred`,
+        },
+      },
+    },
     `gatsby-transformer-json`,
-    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `dedy`,
+        path: `${__dirname}/dedy/`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `data`,
-        path: `${__dirname}/src/data`,
+        path: `${__dirname}/src/data/`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `heroStory`,
+        path: `${__dirname}/heroStory/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `medals`,
+        path: `${__dirname}/medals/`,
       },
     },
   ],
-};
+}

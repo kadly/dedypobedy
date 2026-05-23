@@ -1,18 +1,44 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/
- */
+const path = require("path")
 
-/**
- * @type {import('gatsby').GatsbyNode['createPages']}
- */
-exports.createPages = async ({ actions }) => {
+exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
-  createPage({
-    path: "/using-dsg",
-    component: require.resolve("./src/templates/using-dsg.js"),
-    context: {},
-    defer: true,
+  const veteranTemplate = path.resolve(`src/templates/veteran.js`)
+
+  const result = await graphql(`
+    query {
+      allVeteransJson {
+        nodes {
+          slug
+          name
+          photo
+          heroStoryPhoto
+          yearsOfLife
+          birthPlace
+          conscriptionDate
+          rank
+          unit
+          medals
+          heroStory
+        }
+      }
+    }
+  `)
+
+  if (result.errors) {
+    throw result.errors
+  }
+
+  const veterans = result.data.allVeteransJson.nodes
+  console.log('Gatsby-node: Total veterans from GraphQL:', veterans.length)
+
+  veterans.forEach(veteran => {
+    createPage({
+      path: `/veteran/${veteran.slug}`,
+      component: veteranTemplate,
+      context: {
+        slug: veteran.slug,
+        photo: veteran.photo,
+      },
+    })
   })
 }

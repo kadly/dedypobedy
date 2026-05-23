@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  changedetection:
+    image: dgtlmoon/changedetection.io
+    container_name: changedetection
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data:/datastore
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Berlin
+      - PLAYWRIGHT_DRIVER_URL=ws://playwright:3000
+    depends_on:
+      - playwright
+
+  playwright:
+    image: browserless/chrome
+    container_name: playwright
+    restart: unless-stopped
+    environment:
+      - MAX_CONCURRENT_SESSIONS=5
+      - PREBOOT_CHROME=true

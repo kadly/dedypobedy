@@ -1,0 +1,6 @@
+Build successful! Setting GATSBY_CPU_COUNT=1 and GATSBY_PARALLEL_QUERY_RUNNING=false fixed the file locking issue by running sequentially instead of in parallel.
+To use this in the future, you can either:
+- Set the env vars each time: $env:GATSBY_CPU_COUNT=1; $env:GATSBY_PARALLEL_QUERY_RUNNING="false"; gatsby build
+- Add them to a .env file in your project:
+    GATSBY_CPU_COUNT=1
+  GATSBY_PARALLEL_QUERY_RUNNING=false
