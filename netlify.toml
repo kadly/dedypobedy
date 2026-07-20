@@ -1,0 +1,23 @@
+# Netlify configuration for Gatsby static site
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  command = "npm run build"
+  publish = "public"
+
+[build.environment]
+  # Gatsby 5 requires Node 18+
+  NODE_VERSION = "20"
+  # Optional: reduce parallel image processing if build OOMs on free tier
+  # GATSBY_CPU_COUNT = "2"
+
+# Cache static assets aggressively (Gatsby fingerprints filenames)
+[[headers]]
+  for = "/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/page-data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

@@ -6,9 +6,13 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "set GATSBY_CPU_COUNT=1 && set GATSBY_PARALLEL_QUERY_RUNNING=false && set GATSBY_CPU_HALT=1 && gatsby build",
+    "build": "gatsby build",
+    "build:win": "set GATSBY_CPU_COUNT=1 && set GATSBY_PARALLEL_QUERY_RUNNING=false && set GATSBY_CPU_HALT=1 && gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "repository": {
     "type": "git",
