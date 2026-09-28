@@ -3,3 +3,6 @@ public/
 node_modules/
 .env
 .DS_Store
+.kilo/
+.qwen/
+Новый текстовый документ.txt

@@ -16,16 +16,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kadly/kadly.github.io.git"
+    "url": "git+https://github.com/kadly/dedypobedy.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/kadly/kadly.github.io/issues"
+    "url": "https://github.com/kadly/dedypobedy/issues"
   },
-  "homepage": "https://github.com/kadly/kadly.github.io#readme",
+  "homepage": "https://github.com/kadly/dedypobedy#readme",
   "dependencies": {
     "gatsby": "^5.16.1",
     "gatsby-plugin-image": "^3.16.0",
