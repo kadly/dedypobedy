@@ -2,11 +2,10 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix: `/dedypobedy`,
   siteMetadata: {
     title: `Деды победы`,
     description: `Сайт памяти фронтовиков`,
-    siteUrl: `https://kadly.github.io/dedypobedy`,
+    siteUrl: `https://dedy.work.gd`,
   },
   plugins: [
     `gatsby-plugin-image`,

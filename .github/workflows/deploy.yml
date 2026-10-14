@@ -32,7 +32,6 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          PREFIX_PATHS: "true"
           NODE_OPTIONS: --max-old-space-size=4096
 
       - name: Deploy
@@ -41,3 +40,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           force_orphan: true
+          cname: dedy.work.gd
