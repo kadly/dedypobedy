@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Деды Победы — админка</title>
+  <link rel="stylesheet" href="./vendor/quill.snow.css" />
+  <link rel="stylesheet" href="./admin.css" />
+  <script src="./vendor/purify.min.js"></script>
+  <script src="./vendor/quill.js"></script>
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar-title">Деды Победы <span>админка</span></div>
+    <div class="topbar-actions">
+      <button type="button" class="btn btn-ghost" id="history-btn" hidden>История</button>
+      <button type="button" class="btn btn-ghost" id="logout-btn" hidden>Выйти</button>
+    </div>
+  </div>
+
+  <section class="auth" id="auth-view">
+    <div class="auth-card">
+      <h1>Доступ к редактированию</h1>
+      <p>
+        Нужен fine-grained token GitHub с доступом к репозиторию
+        <code>kadly/dedypobedy</code>: <b>Contents — Read and write</b>,
+        <b>Actions — Read</b>.
+      </p>
+      <p class="muted">
+        Токен хранится только в этом браузере (localStorage) и отправляется
+        напрямую на api.github.com. Никакого сервера у сайта нет.
+      </p>
+      <label for="token-input">Personal access token</label>
+      <input type="password" id="token-input" autocomplete="off" spellcheck="false" placeholder="github_pat_..." />
+      <div class="auth-actions">
+        <button type="button" class="btn btn-primary" id="token-save">Подключиться</button>
+      </div>
+      <p class="error" id="auth-error" hidden></p>
+      <p class="muted small">
+        Создать токен: GitHub → Settings → Developer settings → Personal access tokens →
+        Fine-grained tokens. Repository access: только <code>kadly/dedypobedy</code>.
+      </p>
+    </div>
+  </section>
+
+  <main class="app" id="app-view" hidden>
+    <aside class="sidebar">
+      <div class="sidebar-head">
+        <h1 id="list-title">Деды Победы</h1>
+        <input type="search" id="search-input" placeholder="Поиск по ФИО…" autocomplete="off" />
+        <button type="button" class="btn btn-primary btn-block" id="add-btn">+ Добавить ветерана</button>
+      </div>
+      <div class="list" id="list"></div>
+      <div class="sidebar-foot">
+        <span id="sync-status">—</span>
+        <button type="button" class="btn btn-ghost btn-small" id="reload-btn">Обновить</button>
+      </div>
+    </aside>
+
+    <section class="editor" id="editor">
+      <div class="empty-state" id="empty-state">
+        <p>Выберите ветерана в списке слева или добавьте нового.</p>
+      </div>
+      <form class="editor-form" id="editor-form" hidden autocomplete="off">
+        <div class="editor-head">
+          <div>
+            <div class="editor-title" id="editor-title">Карточка</div>
+            <div class="editor-subtitle" id="editor-subtitle"></div>
+          </div>
+          <div class="editor-actions">
+            <button type="button" class="btn btn-danger btn-small" id="delete-btn">Удалить</button>
+            <button type="button" class="btn btn-ghost" id="cancel-btn">Отмена</button>
+            <button type="submit" class="btn btn-primary" id="save-btn">Сохранить</button>
+          </div>
+        </div>
+
+        <div class="draft-banner" id="draft-banner" hidden>
+          <span>Найден несохранённый черновик.</span>
+          <button type="button" class="btn btn-small btn-ghost" id="draft-restore">Восстановить</button>
+          <button type="button" class="btn btn-small btn-ghost" id="draft-discard">Удалить черновик</button>
+        </div>
+
+        <div class="grid">
+          <div class="field field-wide">
+            <label for="f-name">Название (ФИО)</label>
+            <input type="text" id="f-name" required />
+          </div>
+
+          <div class="field">
+            <label for="f-slug">Адрес страницы (slug)</label>
+            <input type="text" id="f-slug" />
+            <div class="hint" id="slug-hint"></div>
+          </div>
+
+          <div class="field">
+            <label class="checkbox-row" for="f-returned">
+              <input type="checkbox" id="f-returned" checked />
+              <span>Вернулся с войны</span>
+            </label>
+          </div>
+
+          <div class="field">
+            <label>Годы жизни</label>
+            <div class="years-row">
+              <input type="text" id="f-born" placeholder="1918" inputmode="numeric" />
+              <span>—</span>
+              <input type="text" id="f-died" placeholder="1944" inputmode="numeric" />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="f-birth-place">Место рождения</label>
+            <select id="f-birth-place"></select>
+            <input type="text" id="f-birth-place-new" placeholder="Новое место рождения" hidden />
+          </div>
+
+          <div class="field">
+            <label for="f-conscription">Год призыва</label>
+            <input type="text" id="f-conscription" inputmode="numeric" />
+          </div>
+
+          <div class="field">
+            <label for="f-rank">Воинское звание</label>
+            <select id="f-rank"></select>
+            <input type="text" id="f-rank-new" placeholder="Новое звание" hidden />
+          </div>
+
+          <div class="field">
+            <label for="f-position">Должность</label>
+            <input type="text" id="f-position" />
+          </div>
+
+          <div class="field">
+            <label for="f-unit">Воинская часть</label>
+            <input type="text" id="f-unit" />
+          </div>
+
+          <div class="field field-wide">
+            <label>Награды</label>
+            <div class="awards" id="awards"></div>
+            <div class="awards-add">
+              <select id="awards-select">
+                <option value="">Добавить награду…</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="f-seo-title">SEO Title</label>
+            <input type="text" id="f-seo-title" />
+            <div class="hint">Если пусто — «ФИО — Деды Победы».</div>
+          </div>
+
+          <div class="field">
+            <label for="f-seo-description">SEO Description</label>
+            <textarea id="f-seo-description" rows="3"></textarea>
+          </div>
+
+          <div class="field field-wide">
+            <label>Подробное описание</label>
+            <div class="quill-wrap"><div id="quill-editor"></div></div>
+          </div>
+
+          <div class="field">
+            <label>Фото</label>
+            <div class="photo-row">
+              <div class="photo-preview" id="photo-preview">Нет фото</div>
+              <div class="photo-controls">
+                <input type="file" id="f-photo" accept="image/*" />
+                <div class="hint">JPG/PNG/WebP. При загрузке конвертируется в WebP до 1600 px.</div>
+                <button type="button" class="btn btn-ghost btn-small" id="photo-remove">Убрать фото</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="field field-wide">
+            <label>Документы о награждении <span class="hint" id="scans-count">0</span></label>
+            <div class="scans" id="scans"></div>
+            <input type="file" id="f-scan" accept="image/jpeg,image/png,image/webp" multiple />
+            <div class="hint">
+              JPG или PNG. Файлы сохраняются в <code>heroStory/</code> и показываются
+              на карточке ветерана.
+            </div>
+          </div>
+        </div>
+
+        <div class="editor-foot">
+          <span id="save-status"></span>
+          <button type="submit" class="btn btn-primary" id="save-btn-bottom">Сохранить</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" hidden></div>
+
+  <div class="modal" id="modal" hidden>
+    <div class="modal-card">
+      <div class="modal-head">
+        <h2 id="modal-title"></h2>
+        <button type="button" class="btn btn-ghost btn-small" id="modal-close">×</button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <div class="progress" id="progress" hidden><div class="progress-inner"></div></div>
+
+  <script src="./admin.js"></script>
+</body>
+</html>
