@@ -174,11 +174,14 @@
             </div>
           </div>
 
-          <div class="field">
-            <label>PDF-документы</label>
-            <div class="docs" id="docs"></div>
-            <input type="file" id="f-doc" accept="application/pdf,.pdf" />
-            <div class="hint">PDF загружается в <code>static/docs/&lt;slug&gt;/</code>.</div>
+          <div class="field field-wide">
+            <label>Документы о награждении <span class="hint" id="scans-count">0</span></label>
+            <div class="scans" id="scans"></div>
+            <input type="file" id="f-scan" accept="image/jpeg,image/png,image/webp" multiple />
+            <div class="hint">
+              JPG или PNG. Файлы сохраняются в <code>heroStory/</code> и показываются
+              на карточке ветерана.
+            </div>
           </div>
         </div>
 

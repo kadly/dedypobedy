@@ -292,20 +292,38 @@ button, input, select, textarea { font: inherit; }
 .photo-controls { display: flex; flex-direction: column; gap: 8px; }
 .photo-controls input[type="file"] { font-size: 12.5px; max-width: 100%; }
 
-.docs { display: flex; flex-direction: column; gap: 8px; margin-bottom: 8px; }
-.doc-row {
+.scans { display: flex; flex-direction: column; gap: 6px; margin-bottom: 8px; }
+.scan-row {
   align-items: center;
   background: #f8fafc;
   border: 1px solid var(--line);
   border-radius: 8px;
   display: flex;
-  gap: 8px;
-  padding: 6px 8px;
+  gap: 10px;
+  padding: 7px 10px;
 }
-.doc-row input { flex: 1; border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; }
-.doc-row a { color: var(--accent); font-size: 12.5px; white-space: nowrap; }
-.doc-row button { border: none; background: none; color: var(--muted); cursor: pointer; font-size: 18px; }
-.doc-row button:hover { color: var(--danger); }
+.scan-name {
+  flex: 1;
+  font-size: 14px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.scan-size { color: var(--muted); font-size: 12px; white-space: nowrap; }
+.scan-row button {
+  background: none;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  padding: 0 2px;
+}
+.scan-row button:hover { color: var(--danger); }
+.scan-row.is-deleted .scan-name { color: var(--muted); text-decoration: line-through; }
+.scan-row.is-deleted button { color: var(--accent); font-size: 13px; }
+.scan-row.is-deleted button:hover { text-decoration: underline; }
+.scan-row.is-pending { border-style: dashed; }
+#f-scan { font-size: 12.5px; max-width: 100%; }
 
 .editor-foot {
   align-items: center;

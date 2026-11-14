@@ -15,7 +15,7 @@
   const CACHE_KEY = "dp_admin_cache_v1"
   const DRAFT_PREFIX = "dp_draft_"
   const PHOTO_DIR = "dedy"
-  const DOCS_DIR = "static/docs"
+  const SCANS_DIR = "heroStory"
   const DEFAULT_BIRTH_PLACE = "с. Травное Доволенского района Новосибирской области"
 
   const $ = selector => document.querySelector(selector)
@@ -33,7 +33,9 @@
     dirty: false,
     filling: false,
     selectedAwards: [],
-    documents: [],
+    scanFiles: [],
+    pendingScans: [],
+    deletedScans: [],
     pendingPhoto: null,
     removePhoto: false,
     quill: null,
@@ -105,12 +107,14 @@
 
   const sanitizeHtml = html => (window.DOMPurify ? DOMPurify.sanitize(html) : html)
 
-  const safeFileName = name =>
-    String(name)
-      .normalize("NFKD")
-      .replace(/[^A-Za-z0-9._-]+/g, "-")
-      .replace(/-+/g, "-")
-      .replace(/^-|-$/g, "") || "document.pdf"
+  const scanBase = name => String(name || "").replace(/\.(jpe?g|png|webp)$/i, "")
+
+  const formatSize = bytes => {
+    if (!bytes) return ""
+    if (bytes < 1024) return `${bytes} Б`
+    if (bytes < 1024 * 1024) return `${Math.round(bytes / 1024)} КБ`
+    return `${(bytes / (1024 * 1024)).toFixed(1)} МБ`
+  }
 
   // ---------- GitHub API ----------
 
@@ -171,7 +175,12 @@
     try {
       localStorage.setItem(
         CACHE_KEY,
-        JSON.stringify({ veterans: state.veterans, awards: state.awards, ts: Date.now() })
+        JSON.stringify({
+          veterans: state.veterans,
+          awards: state.awards,
+          scanFiles: state.scanFiles,
+          ts: Date.now()
+        })
       )
     } catch (error) {
       /* переполнение хранилища не критично */
@@ -182,12 +191,16 @@
     setProgress(true)
     $("#sync-status").textContent = "Загрузка…"
     try {
-      const [veteransFile, awardsFile] = await Promise.all([
+      const [veteransFile, awardsFile, scanEntries] = await Promise.all([
         fetchJsonFile(VETERANS_PATH),
-        fetchJsonFile(AWARDS_PATH)
+        fetchJsonFile(AWARDS_PATH),
+        api(`/repos/${REPO}/contents/${SCANS_DIR}?ref=${BRANCH}`).catch(() => [])
       ])
       state.veterans = JSON.parse(veteransFile.text)
       state.awards = JSON.parse(awardsFile.text)
+      state.scanFiles = (Array.isArray(scanEntries) ? scanEntries : [])
+        .filter(entry => entry.type === "file" && /\.(jpe?g|png)$/i.test(entry.name))
+        .map(entry => ({ name: entry.name, size: entry.size || 0 }))
       state.sha = veteransFile.sha
       writeCache()
       renderList()
@@ -362,6 +375,22 @@
     }
   }
 
+  // ---------- документы о награждении ----------
+
+  // Те же правила, что на сайте: slug, slug-* и закреплённый heroStoryPhoto.
+  function veteranScans(veteran) {
+    if (!veteran || !veteran.slug) return []
+    const pinned = scanBase(veteran.heroStoryPhoto || "")
+    return state.scanFiles.filter(file => {
+      const base = scanBase(file.name)
+      return (
+        base === veteran.slug ||
+        base.startsWith(`${veteran.slug}-`) ||
+        (pinned && base === pinned)
+      )
+    })
+  }
+
   // ---------- список ----------
 
   function renderList() {
@@ -403,7 +432,8 @@
       if (veteran.yearsOfLife) parts.push(veteran.yearsOfLife)
       if (veteran.toBeKilled === "true") parts.push("не вернулся")
       if (veteran.photo) parts.push("фото")
-      if ((veteran.documents || []).length > 0) parts.push("PDF")
+      const scanCount = veteranScans(veteran).length
+      if (scanCount > 0) parts.push(`сканы: ${scanCount}`)
       meta.textContent = parts.join(" · ") || "нет данных"
       button.appendChild(meta)
 
@@ -574,56 +604,90 @@
     box.textContent = "Нет фото"
   }
 
-  function renderDocuments() {
-    const container = $("#docs")
+  function renderScans() {
+    const container = $("#scans")
     container.innerHTML = ""
 
-    if (state.documents.length === 0) {
-      container.innerHTML = '<div class="hint">PDF не добавлены</div>'
-      return
-    }
+    const slug = state.isNew
+      ? $("#f-slug").value.trim() || slugify(currentName())
+      : state.originalSlug || ""
+    const existing = veteranScans({
+      slug,
+      heroStoryPhoto: state.editing ? state.editing.heroStoryPhoto : ""
+    })
 
-    state.documents.forEach((doc, index) => {
-      const row = document.createElement("div")
-      row.className = "doc-row"
+    $("#scans-count").textContent =
+      existing.filter(file => !state.deletedScans.includes(file.name)).length +
+      state.pendingScans.length
 
-      const title = document.createElement("input")
-      title.type = "text"
-      title.value = doc.title || ""
-      title.placeholder = "Название документа"
-      title.addEventListener("input", () => {
-        doc.title = title.value
-        markDirty()
-      })
-      row.appendChild(title)
+    const addRow = (name, meta, actionLabel, actionTitle, onAction, className) => {
+      const line = document.createElement("div")
+      line.className = `scan-row${className ? " " + className : ""}`
 
-      if (doc.url) {
-        const link = document.createElement("a")
-        link.href = doc.url
-        link.target = "_blank"
-        link.rel = "noopener noreferrer"
-        link.textContent = "открыть"
-        row.appendChild(link)
-      } else {
-        const pending = document.createElement("span")
-        pending.className = "hint"
-        pending.textContent = doc.file ? doc.file.name : ""
-        row.appendChild(pending)
+      const label = document.createElement("span")
+      label.className = "scan-name"
+      label.textContent = name
+      line.appendChild(label)
+
+      if (meta) {
+        const info = document.createElement("span")
+        info.className = "scan-size"
+        info.textContent = meta
+        line.appendChild(info)
       }
 
-      const remove = document.createElement("button")
-      remove.type = "button"
-      remove.title = "Убрать документ"
-      remove.textContent = "×"
-      remove.addEventListener("click", () => {
-        state.documents.splice(index, 1)
-        renderDocuments()
+      const action = document.createElement("button")
+      action.type = "button"
+      action.title = actionTitle
+      action.textContent = actionLabel
+      action.addEventListener("click", onAction)
+      line.appendChild(action)
+
+      container.appendChild(line)
+    }
+
+    existing.forEach(file => {
+      if (state.deletedScans.includes(file.name)) {
+        addRow(
+          file.name,
+          "будет удалён",
+          "Вернуть",
+          "Оставить документ",
+          () => {
+            state.deletedScans = state.deletedScans.filter(name => name !== file.name)
+            renderScans()
+            markDirty()
+          },
+          "is-deleted"
+        )
+        return
+      }
+
+      addRow(file.name, formatSize(file.size), "×", "Удалить документ", () => {
+        state.deletedScans.push(file.name)
+        renderScans()
         markDirty()
       })
-      row.appendChild(remove)
-
-      container.appendChild(row)
     })
+
+    state.pendingScans.forEach((item, index) => {
+      addRow(
+        item.file.name,
+        "будет добавлен",
+        "×",
+        "Убрать из очереди",
+        () => {
+          state.pendingScans.splice(index, 1)
+          renderScans()
+          markDirty()
+        },
+        "is-pending"
+      )
+    })
+
+    if (existing.length === 0 && state.pendingScans.length === 0) {
+      container.innerHTML = '<div class="hint">Документов нет</div>'
+    }
   }
 
   function fillForm(record) {
@@ -668,15 +732,16 @@
 
     setQuillContent(record.description || "")
 
-    state.documents = (record.documents || []).map(doc => ({ ...doc }))
-    renderDocuments()
+    state.pendingScans = []
+    state.deletedScans = []
+    renderScans()
 
     state.pendingPhoto = null
     state.removePhoto = false
     renderPhotoPreview()
 
     $("#f-photo").value = ""
-    $("#f-doc").value = ""
+    $("#f-scan").value = ""
 
     state.filling = false
   }
@@ -817,10 +882,6 @@
         : state.removePhoto
         ? ""
         : record.photo || ""
-
-      record.documents = state.documents
-        .filter(doc => doc.url)
-        .map(doc => ({ title: doc.title || "Документ", url: doc.url }))
     }
 
     return record
@@ -828,7 +889,7 @@
 
   // ---------- сохранение ----------
 
-  async function commitFiles(files, message) {
+  async function commitFiles(files, message, deletions = []) {
     const ref = await api(`/repos/${REPO}/git/ref/heads/${BRANCH}`)
     const headSha = ref.object.sha
     const headCommit = await api(`/repos/${REPO}/git/commits/${headSha}`)
@@ -840,6 +901,11 @@
         body: JSON.stringify({ content: file.base64, encoding: "base64" })
       })
       tree.push({ path: file.path, mode: "100644", type: "blob", sha: blob.sha })
+    }
+
+    // sha: null в дереве удаляет файл — так удаление и добавление попадают в один коммит.
+    for (const path of deletions) {
+      tree.push({ path, mode: "100644", type: "blob", sha: null })
     }
 
     const newTree = await api(`/repos/${REPO}/git/trees`, {
@@ -879,6 +945,40 @@
     return { blob: file, extension }
   }
 
+  async function prepareScan(file) {
+    const extension = (file.name.split(".").pop() || "").toLowerCase()
+    if (!/^(jpe?g|png|webp)$/.test(extension)) return null
+
+    if (extension === "webp") {
+      try {
+        const bitmap = await createImageBitmap(file)
+        const canvas = document.createElement("canvas")
+        canvas.width = bitmap.width
+        canvas.height = bitmap.height
+        canvas.getContext("2d").drawImage(bitmap, 0, 0)
+        const blob = await new Promise(resolve => canvas.toBlob(resolve, "image/jpeg", 0.92))
+        if (blob) return { blob, extension: "jpg" }
+      } catch (error) {
+        /* не удалось конвертировать */
+      }
+      return null
+    }
+
+    return { blob: file, extension: extension === "jpeg" ? "jpg" : extension }
+  }
+
+  // slug.jpg, slug-2.jpg, slug-3.jpg — свободное имя, сайт подхватывает по префиксу.
+  function uniqueScanName(slug, extension, taken) {
+    let index = 1
+    let name = `${slug}.${extension}`
+    while (taken.has(scanBase(name))) {
+      index += 1
+      name = `${slug}-${index}.${extension}`
+    }
+    taken.add(scanBase(name))
+    return name
+  }
+
   async function save() {
     if (state.loading) return
 
@@ -910,16 +1010,28 @@
         record.photo = fileName
       }
 
-      for (const doc of state.documents) {
-        if (!doc.file) continue
-        const fileName = safeFileName(doc.file.name).replace(/\.pdf$/i, "") + ".pdf"
-        const path = `${DOCS_DIR}/${record.slug}/${fileName}`
-        files.push({ path, base64: await blobToBase64(doc.file) })
-        record.documents = record.documents || []
-        record.documents.push({
-          title: doc.title || doc.file.name.replace(/\.pdf$/i, ""),
-          url: `/${path.replace(/^static\//, "")}`
+      // Документы о награждении: новые сканы + удаление отмеченных в одном дереве.
+      // Учитываем и удаляемые имена: иначе новый файл может занять путь
+      // удаляемого, и в одном дереве окажутся blob и sha: null на один путь.
+      const takenScans = new Set(state.scanFiles.map(file => scanBase(file.name)))
+      const deletions = state.deletedScans.map(name => `${SCANS_DIR}/${name}`)
+
+      for (const item of state.pendingScans) {
+        const prepared = await prepareScan(item.file)
+        if (!prepared) {
+          toast(`Файл «${item.file.name}» не подходит: нужен JPG или PNG`, "error")
+          return
+        }
+        const fileName = uniqueScanName(record.slug, prepared.extension, takenScans)
+        files.push({
+          path: `${SCANS_DIR}/${fileName}`,
+          base64: await blobToBase64(prepared.blob)
         })
+      }
+
+      const pinnedScan = scanBase(record.heroStoryPhoto || "")
+      if (pinnedScan && state.deletedScans.some(name => scanBase(name) === pinnedScan)) {
+        delete record.heroStoryPhoto
       }
 
       const index = state.veterans.findIndex(v => v.slug === state.originalSlug)
@@ -936,11 +1048,17 @@
         base64: utf8ToBase64(JSON.stringify(state.veterans, null, 2) + "\n")
       })
 
-      const message = state.isNew
-        ? `admin: добавлена карточка ${record.name}`
-        : `admin: изменена карточка ${record.name}`
+      const changes = []
+      if (state.pendingScans.length > 0) changes.push(`+${state.pendingScans.length}`)
+      if (deletions.length > 0) changes.push(`−${deletions.length}`)
 
-      const sha = await commitFiles(files, message)
+      const message =
+        (state.isNew
+          ? `admin: добавлена карточка ${record.name}`
+          : `admin: изменена карточка ${record.name}`) +
+        (changes.length > 0 ? ` (сканы: ${changes.join(", ")})` : "")
+
+      const sha = await commitFiles(files, message, deletions)
 
       state.originalSlug = record.slug
       state.isNew = false
@@ -1202,24 +1320,30 @@
       markDirty()
     })
 
-    $("#f-doc").addEventListener("change", event => {
-      const file = event.target.files[0]
-      if (!file) return
-      if (!/\.pdf$/i.test(file.name)) {
-        toast("Нужен PDF-файл", "error")
-        return
-      }
-      state.documents.push({
-        title: file.name.replace(/\.pdf$/i, ""),
-        file
-      })
+    $("#f-scan").addEventListener("change", event => {
+      const chosen = Array.from(event.target.files || [])
       event.target.value = ""
-      renderDocuments()
+
+      chosen.forEach(file => {
+        if (!/^(jpe?g|png|webp)$/i.test((file.name.split(".").pop() || ""))) {
+          toast(`«${file.name}» не подходит: нужен JPG или PNG`, "error")
+          return
+        }
+        if (file.size > 10 * 1024 * 1024) {
+          toast(`«${file.name}» больше 10 МБ — уменьшите файл`, "error")
+          return
+        }
+        if (file.size > 5 * 1024 * 1024) {
+          toast(`«${file.name}» больше 5 МБ, загрузка будет долгой`)
+        }
+        state.pendingScans.push({ file })
+      })
+
+      renderScans()
       markDirty()
     })
 
     $("#editor-form").addEventListener("input", event => {
-      if (event.target.closest(".doc-row")) return
       if (event.target.id === "f-name" || event.target.id === "f-slug") return
       markDirty()
     })
@@ -1260,6 +1384,7 @@
     if (cached) {
       state.veterans = cached.veterans
       state.awards = cached.awards || []
+      state.scanFiles = cached.scanFiles || []
       buildAwardSelect()
     }
 
