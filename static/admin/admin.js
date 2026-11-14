@@ -635,10 +635,7 @@
     $("#f-born").value = born
     $("#f-died").value = died
 
-    const killed = record.toBeKilled === "true"
-    $$('input[name="f-killed"]').forEach(input => {
-      input.checked = input.value === String(killed)
-    })
+    $("#f-returned").checked = record.toBeKilled !== "true"
 
     buildSelectField(
       "#f-birth-place",
@@ -793,11 +790,10 @@
     const died = $("#f-died").value.trim()
     record.yearsOfLife = born && died ? `${born} — ${died}` : born || died || ""
 
-    const killed = $$('input[name="f-killed"]').find(input => input.checked)
-    if (killed && killed.value === "true") {
-      record.toBeKilled = "true"
-    } else {
+    if ($("#f-returned").checked) {
       delete record.toBeKilled
+    } else {
+      record.toBeKilled = "true"
     }
 
     record.birthPlace = currentSelectValue("#f-birth-place", "#f-birth-place-new", DEFAULT_BIRTH_PLACE)

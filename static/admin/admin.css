@@ -200,6 +200,20 @@ button, input, select, textarea { font: inherit; }
 .hint { color: var(--muted); font-size: 12px; }
 .radio-row { display: flex; gap: 18px; padding-top: 6px; }
 .radio-row label { align-items: center; display: flex; gap: 6px; font-weight: 400; }
+.field > label.checkbox-row {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  gap: 8px;
+  padding-top: 4px;
+}
+.field > label.checkbox-row input {
+  height: 16px;
+  margin: 0;
+  width: 16px;
+}
 .years-row { align-items: center; display: flex; gap: 8px; }
 .years-row input { width: 100%; }
 .years-row span { color: var(--muted); }
