@@ -1,6 +1,7 @@
 import * as React from "react"
 import { graphql, Link } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { resolveAwards } from "../utils/awards.mjs"
 
 const VeteranPage = ({ data }) => {
   const veteran = data.veteransJson
@@ -45,69 +46,34 @@ const VeteranPage = ({ data }) => {
   // Show link if there are hero images
   const hasDocumentsLink = heroImages.length > 0
 
-  // Get all medal images from the medals folder
-  const medalImages = data.medalsFile?.nodes || []
-  
-  // Parse medals and display images
-  const getMedalImages = () => {
-    if (!veteran.medals || medalImages.length === 0) return []
+  // Награды: справочник src/data/awards.json + картинки из medals/.
+  // Награды без картинки остаются только текстом.
+  const awardList = data.allAwardsJson?.nodes || []
+  const medalFiles = data.medalsFile?.nodes || []
+  const displayedMedals = React.useMemo(() => {
+    const filesByName = new Map(medalFiles.map(file => [file.name, file]))
 
-    const result = []
+    return resolveAwards(veteran.medals, awardList).flatMap(award => {
+      if (!award.image) return []
 
-    // Define medal mappings: text pattern -> image name pattern -> display name
-    const medalMappings = [
-      { pattern: /медаль\s*«за отвагу»/i, imagePattern: 'Medal_Za_Otvagu', displayName: 'Медаль «За отвагу»' },
-      { pattern: /медаль\s*«за победу над японией»/i, imagePattern: 'Medal_Za_pobedu_nad_YAponiej', displayName: 'Медаль «За победу над Японией»' },
-      { pattern: /медаль\s*«за взятие вены»/i, imagePattern: 'Medal_Za_vzyatie_Veny', displayName: 'Медаль «За взятие Вены»' },
-      { pattern: /медаль\s*«за освобождение белграда»/i, imagePattern: 'Medal_Za_osvobozhdenie_Belgrada', displayName: 'Медаль «За освобождение Белграда»' },
-      { pattern: /медаль\s*«за взятие будапешта»/i, imagePattern: 'Medal_Za_vzyatie_Budapeshta', displayName: 'Медаль «За взятие Будапешта»' },
-      { pattern: /медаль\s*«за оборону сталинграда»/i, imagePattern: 'Medal_Za_oboronu_Stalingrada', displayName: 'Медаль «За оборону Сталинграда»' },
-      { pattern: /медаль\s*«за взятие берлина»/i, imagePattern: 'Medal_Za_vzyatie_Berlina', displayName: 'Медаль «За взятие Берлина»' },
-      { pattern: /медаль\s*«за взятие кён[иё]гсберга»/i, imagePattern: 'Medal_Za_vzyatie_Keniksberga', displayName: 'Медаль «За взятие Кёнигсберга»' },
-      { pattern: /медаль\s*«за оборону москвы»/i, imagePattern: 'Medal_Za_oboronu_Moskvy', displayName: 'Медаль «За оборону Москвы»' },
-      { pattern: /медаль\s*«за оборону кавказа»/i, imagePattern: 'Medal_Za_oboronu_Kavkaza', displayName: 'Медаль «За оборону Кавказа»' },
-      { pattern: /медаль\s*«за оборону ленинграда»/i, imagePattern: 'Medal_Za_oboronu_Leningrada', displayName: 'Медаль «За оборону Ленинграда»' },
-      { pattern: /медаль\s*«за победу над германией/i, imagePattern: 'Medal_Za_pobedu_nad_Germaniej', displayName: 'Медаль «За победу над Германией в Великой Отчественной войне 1941–1945 гг.»' },
-      { pattern: /медаль\s*«за боевые заслуги»/i, imagePattern: 'Medal_Za_Boevye_zaslugi', displayName: 'Медаль «За боевые заслуги»' },
-      { pattern: /медаль\s*«за освобождение праги»/i, imagePattern: 'Medal_Za_osvobozhdenie_Pragi', displayName: 'Медаль «За освобождение Праги»' },
-      { pattern: /орден\s+славы\s+(1|ii)\s*степени?/i, imagePattern: 'Orden_Slavy_1st', displayName: 'Орден Славы 1-й степени' },
-      { pattern: /орден\s+славы\s+(2|ii)(?!\d)\s*степени?/i, imagePattern: 'Orden_Slavy_2st', displayName: 'Орден Славы 2-й степени' },
-      { pattern: /орден\s+славы\s+(3|iii)\s*степени?/i, imagePattern: 'Orden_Slavy_3st', displayName: 'Орден Славы 3-й степени' },
-      { pattern: /орден\s+отечественной\s+войны\s+ii/i, imagePattern: 'Orden_Otechestvennoj_vojny_2st', displayName: 'Орден Отественной войны II степени' },
-      { pattern: /орден\s+отечественной\s+войны\s+i/i, imagePattern: 'Orden_Otechestvennoj_vojny_1st', displayName: 'Орден Отественной войны I степени' },
-      { pattern: /орден\s+красной\s+звезды/i, imagePattern: 'Orden_Krasnoj_Zvezdy', displayName: 'Орден Красной Звезды' },
-      { pattern: /орден\s+красного\s+знамени/i, imagePattern: 'Orden_Krasnogo_Znameni', displayName: 'Орден Красного Знамени' }
-    ]
+      const fileName = award.image.replace(/\.(png|jpe?g|webp)$/i, "")
+      const file = filesByName.get(fileName)
+      const image = file ? getImage(file.childImageSharp) : null
+      if (!image) return []
 
-    // Split medals by semicolon and process each one
-    const medalList = veteran.medals.split(';').map(m => m.trim()).filter(m => m)
-
-    medalList.forEach(medalText => {
-      for (const mapping of medalMappings) {
-        if (mapping.pattern.test(medalText)) {
-          const medalImg = medalImages.find(f => f.name === mapping.imagePattern)
-          if (medalImg) {
-            // Check for count in parentheses
-            const countMatch = medalText.match(/\((\d+)\)/)
-            const count = countMatch ? parseInt(countMatch[1]) : 1
-
-            for (let i = 0; i < count; i++) {
-              result.push({
-                img: getImage(medalImg.childImageSharp),
-                name: mapping.displayName,
-                originalUrl: medalImg.publicURL
-              })
-            }
-          }
-          break // Found match, move to next medal
-        }
-      }
+      return Array.from({ length: award.count }, () => ({
+        img: image,
+        name: award.title,
+        originalUrl: file.publicURL
+      }))
     })
+  }, [veteran.medals, awardList, medalFiles])
 
-    return result
-  }
-  
-  const displayedMedals = getMedalImages()
+  const medalTitles = (veteran.medals || "")
+    .split(";")
+    .map(part => part.trim())
+    .filter(Boolean)
+
   const isDeceased = veteran.toBeKilled === "true"
 
   return (
@@ -206,10 +172,10 @@ const VeteranPage = ({ data }) => {
               </div>
             )}
             
-            {veteran.medals && (
+            {medalTitles.length > 0 && (
               <div className="info-row">
                 <span className="label">Награды:</span>
-                <span className="value">{veteran.medals.split("; ").map((part, i) => (
+                <span className="value">{medalTitles.map((part, i) => (
                   <React.Fragment key={i}>
                     {i > 0 && <br />}
                     {part}
@@ -360,6 +326,14 @@ export const query = graphql`
         childImageSharp {
           gatsbyImageData(height: 300, placeholder: BLURRED, layout: CONSTRAINED)
         }
+      }
+    }
+    allAwardsJson {
+      nodes {
+        title
+        image
+        group
+        order
       }
     }
   }

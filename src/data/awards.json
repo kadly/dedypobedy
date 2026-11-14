@@ -1,0 +1,164 @@
+[
+  {
+    "title": "Орден Красного Знамени",
+    "image": "Orden_Krasnogo_Znameni.png",
+    "group": "orden",
+    "order": 1
+  },
+  {
+    "title": "Орден Отечественной войны I степени",
+    "image": "Orden_Otechestvennoj_vojny_1st.png",
+    "group": "orden",
+    "order": 2
+  },
+  {
+    "title": "Орден Отечественной войны II степени",
+    "image": "Orden_Otechestvennoj_vojny_2st.png",
+    "group": "orden",
+    "order": 3
+  },
+  {
+    "title": "Орден Красной Звезды",
+    "image": "Orden_Krasnoj_Zvezdy.png",
+    "group": "orden",
+    "order": 4
+  },
+  {
+    "title": "Орден Славы I степени",
+    "image": null,
+    "group": "orden",
+    "order": 5
+  },
+  {
+    "title": "Орден Славы II степени",
+    "image": "Orden_Slavy_2st.png",
+    "group": "orden",
+    "order": 6
+  },
+  {
+    "title": "Орден Славы III степени",
+    "image": "Orden_Slavy_3st.png",
+    "group": "orden",
+    "order": 7
+  },
+  {
+    "title": "Медаль «За отвагу»",
+    "image": "Medal_Za_Otvagu.png",
+    "group": "medal",
+    "order": 8
+  },
+  {
+    "title": "Медаль «За боевые заслуги»",
+    "image": "Medal_Za_Boevye_zaslugi.png",
+    "group": "medal",
+    "order": 9
+  },
+  {
+    "title": "Медаль «За оборону Ленинграда»",
+    "image": "Medal_Za_oboronu_Leningrada.png",
+    "group": "medal",
+    "order": 10
+  },
+  {
+    "title": "Медаль «За оборону Москвы»",
+    "image": "Medal_Za_oboronu_Moskvy.png",
+    "group": "medal",
+    "order": 11
+  },
+  {
+    "title": "Медаль «За оборону Сталинграда»",
+    "image": "Medal_Za_oboronu_Stalingrada.png",
+    "group": "medal",
+    "order": 12
+  },
+  {
+    "title": "Медаль «За оборону Кавказа»",
+    "image": "Medal_Za_oboronu_Kavkaza.png",
+    "group": "medal",
+    "order": 13
+  },
+  {
+    "title": "Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
+    "image": "Medal_Za_pobedu_nad_Germaniej.png",
+    "group": "medal",
+    "order": 14
+  },
+  {
+    "title": "Медаль «За победу над Японией»",
+    "image": "Medal_Za_pobedu_nad_YAponiej.png",
+    "group": "medal",
+    "order": 15
+  },
+  {
+    "title": "Медаль «За взятие Будапешта»",
+    "image": "Medal_Za_vzyatie_Budapeshta.png",
+    "group": "medal",
+    "order": 16
+  },
+  {
+    "title": "Медаль «За взятие Кёнигсберга»",
+    "image": "Medal_Za_vzyatie_Keniksberga.png",
+    "group": "medal",
+    "order": 17
+  },
+  {
+    "title": "Медаль «За взятие Вены»",
+    "image": "Medal_Za_vzyatie_Veny.png",
+    "group": "medal",
+    "order": 18
+  },
+  {
+    "title": "Медаль «За взятие Берлина»",
+    "image": "Medal_Za_vzyatie_Berlina.png",
+    "group": "medal",
+    "order": 19
+  },
+  {
+    "title": "Медаль «За освобождение Белграда»",
+    "image": "Medal_Za_osvobozhdenie_Belgrada.png",
+    "group": "medal",
+    "order": 20
+  },
+  {
+    "title": "Медаль «За освобождение Праги»",
+    "image": "Medal_Za_osvobozhdenie_Pragi.png",
+    "group": "medal",
+    "order": 21
+  },
+  {
+    "title": "Золотая медаль «Серп и Молот»",
+    "image": null,
+    "group": "other",
+    "order": 22
+  },
+  {
+    "title": "Герой Труда КНДР",
+    "image": null,
+    "group": "other",
+    "order": 23
+  },
+  {
+    "title": "Орден Государственного флага I степени",
+    "image": null,
+    "group": "other",
+    "order": 24
+  },
+  {
+    "title": "Орден Государственного флага III степени",
+    "image": null,
+    "group": "other",
+    "order": 25
+  },
+  {
+    "title": "Медаль «Братство по оружию» I степени - золото",
+    "image": null,
+    "group": "other",
+    "order": 26
+  },
+  {
+    "title": "Медаль «60 лет Вооруженным силам Монгольской Народной Республики»",
+    "image": null,
+    "group": "other",
+    "order": 27
+  }
+]
