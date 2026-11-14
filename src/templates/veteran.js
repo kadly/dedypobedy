@@ -35,8 +35,14 @@ const VeteranPage = ({ data }) => {
   const heroFiles = data.heroStoryFile?.nodes || []
   
   // Find hero images by matching files that start with the veteran's slug
+  const pinnedHero = (veteran.heroStoryPhoto || "").replace(/\.(jpg|jpeg|png|webp)$/i, "")
   const heroImages = heroFiles
-    .filter(f => f.name.startsWith(veteran.slug))
+    .filter(
+      f =>
+        f.name === veteran.slug ||
+        f.name.startsWith(`${veteran.slug}-`) ||
+        (pinnedHero && f.name === pinnedHero)
+    )
     .map(f => ({
       gatsbyImage: getImage(f.childImageSharp),
       publicURL: f.publicURL,
@@ -241,8 +247,33 @@ const VeteranPage = ({ data }) => {
                 </span>
               </div>
             )}
+
+            {veteran.documents?.length > 0 && (
+              <div className="info-row">
+                <span className="label">Документы:</span>
+                <ul className="documents-list">
+                  {veteran.documents.map((doc, index) => (
+                    <li key={`${doc.url}-${index}`}>
+                      <a href={doc.url} target="_blank" rel="noopener noreferrer">
+                        {doc.title || "Документ"}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
+
+        {veteran.description && (
+          <section className="veteran-biography">
+            <h2>Биография</h2>
+            <div
+              className="biography-content"
+              dangerouslySetInnerHTML={{ __html: veteran.description }}
+            />
+          </section>
+        )}
       </div>
 
       {showModal && (
@@ -295,6 +326,13 @@ export const query = graphql`
       medals
       heroStory
       toBeKilled
+      description
+      seoTitle
+      seoDescription
+      documents {
+        title
+        url
+      }
     }
     allFile(filter: {sourceInstanceName: {eq: "dedy"}, extension: {regex: "/(jpg|jpeg|png)/"}}) {
       nodes {
@@ -314,9 +352,6 @@ export const query = graphql`
       nodes {
         name
         publicURL
-        childImageSharp {
-          gatsbyImageData(width: 800, placeholder: BLURRED)
-        }
       }
     }
     medalsFile: allFile(filter: {sourceInstanceName: {eq: "medals"}, extension: {regex: "/(png|jpg|jpeg)/"}}) {
@@ -339,8 +374,29 @@ export const query = graphql`
   }
 `
 
-export const Head = ({ data }) => (
-  <title>{data.veteransJson.name} - Деды победы</title>
-)
+const stripHtml = html =>
+  String(html || "")
+    .replace(/<[^>]*>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+
+export const Head = ({ data }) => {
+  const veteran = data.veteransJson
+  const title = veteran.seoTitle?.trim() || `${veteran.name} — Деды Победы`
+  const description =
+    veteran.seoDescription?.trim() ||
+    stripHtml(veteran.description).slice(0, 160) ||
+    `${veteran.name} — участник Великой Отечественной войны.`
+
+  return (
+    <>
+      <title>{title}</title>
+      <meta name="description" content={description} />
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
+      <meta property="og:type" content="profile" />
+    </>
+  )
+}
 
 export default VeteranPage

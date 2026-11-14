@@ -1,5 +1,21 @@
 const path = require("path")
 
+exports.createSchemaCustomization = ({ actions }) => {
+  actions.createTypes(`
+    type VeteransJson implements Node {
+      description: String
+      seoTitle: String
+      seoDescription: String
+      documents: [VeteransDocument]
+    }
+
+    type VeteransDocument {
+      title: String
+      url: String
+    }
+  `)
+}
+
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const veteranTemplate = path.resolve(`src/templates/veteran.js`)
@@ -29,9 +45,12 @@ exports.createPages = async ({ graphql, actions }) => {
   }
 
   const veterans = result.data.allVeteransJson.nodes
-  console.log('Gatsby-node: Total veterans from GraphQL:', veterans.length)
+  const seen = new Set()
 
   veterans.forEach(veteran => {
+    if (!veteran.slug || seen.has(veteran.slug)) return
+    seen.add(veteran.slug)
+
     createPage({
       path: `/veteran/${veteran.slug}`,
       component: veteranTemplate,

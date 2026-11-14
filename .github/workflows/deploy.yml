@@ -11,7 +11,7 @@ permissions:
 
 concurrency:
   group: gh-pages-deploy
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build-and-deploy:
@@ -28,6 +28,9 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Validate data
+        run: node scripts/validate-data.mjs
 
       - name: Build
         run: npm run build

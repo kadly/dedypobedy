@@ -640,3 +640,64 @@ footer a:hover {
   font-size: 1.3rem;
   margin-bottom: 15px;
 }
+
+/* Биография и документы ветерана */
+.veteran-biography {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  padding: 24px;
+}
+
+.veteran-biography h2 {
+  color: #1a1a2e;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.biography-content {
+  color: #333;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.biography-content p {
+  margin: 0 0 1em;
+}
+
+.biography-content p:last-child {
+  margin-bottom: 0;
+}
+
+.biography-content img {
+  border-radius: 8px;
+  height: auto;
+  margin: 10px 0;
+  max-width: 100%;
+}
+
+.biography-content a {
+  color: #1a4d8f;
+}
+
+.documents-list {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+.documents-list li {
+  padding: 4px 0;
+}
+
+.documents-list a {
+  color: #1a4d8f;
+  font-size: 1.05rem;
+}
+
+@media (max-width: 768px) {
+  .veteran-biography {
+    padding: 18px;
+  }
+}

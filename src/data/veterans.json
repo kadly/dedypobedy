@@ -10,7 +10,11 @@
     "rank": "майор технической службы",
     "unit": "1034 стрелковый полк 293 стрелковой дивизии",
     "medals": "Орден Отечественной войны II степени; Медаль «За боевые заслуги»; Медаль «За победу над Японией»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "aderikhin-ilya-petrovich",
@@ -24,7 +28,11 @@
     "position": "адъютант старший",
     "unit": "112 стрелковый полк 190 стрелковой дивизии",
     "medals": "Орден Красного Знамени; Орден Красной Звезды; Медаль «За боевые заслуги»; Медаль «За победу над Японией»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "aderikhin-mikhail-ivanovich",
@@ -37,7 +45,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "Орден Отечественной войны I степени; Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "aderikhin-nikita-vasilyevich",
@@ -51,7 +63,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "Орден Отечественной войны I степени; Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "aderikhin-nikolay-vasilevich",
@@ -66,7 +82,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "aderikhin-stepan-vasilevich",
@@ -80,10 +100,14 @@
     "position": "повозочный 37 полевого подвижного госпиталя",
     "unit": "7 гвардейский кавалерийский корпус; полевой подвижной госпиталь 37",
     "medals": "Орден Отечественной войны I степени; Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
-    "slug": "aderikhin-stepan-vasilevich",
+    "slug": "aytpaev-nikolay-ivanovich",
     "name": "Айтпаев Николай Иванович",
     "photo": "",
     "heroStoryPhoto": "",
@@ -95,7 +119,11 @@
     "position": "",
     "unit": "586 стрелковый полк 149 стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "alyokhin-aleksey-andreevich",
@@ -110,7 +138,11 @@
     "position": "командир отделения",
     "unit": "4 гвардейский кавалерийский полк 2 гвардейской кавалерийской дивизии",
     "medals": "Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "alyokhin-dmitriy-antonovich",
@@ -124,7 +156,11 @@
     "position": "командир отделения стрелковой роты",
     "unit": "",
     "medals": "Орден Отечественной войны I степени; Орден Славы III степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "anashko-fyodor-petrovich",
@@ -138,7 +174,11 @@
     "position": "",
     "unit": "72 кавалерийский полк; 53 пограничный отряд войск НКВД",
     "medals": "Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "afanasyev-efim-matveevich",
@@ -153,7 +193,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "batyuk-maxim-vasilievich",
@@ -167,7 +211,11 @@
     "position": "стрелок",
     "unit": "145 гвардейский стрелковый полк 66 гвардейской стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "berezhnoy-ivan-makarovich",
@@ -179,7 +227,11 @@
     "rank": "рядовой",
     "unit": "83 отдельный батальон аэродромного обслуживания; 311 стрелковый полк 65 стрелковой дивизии; 392 запасной стрелковый полк; 10 район авиационного базирования; курсы по подготовке мл. медсестер 32; эвакуационный госпиталь 1777",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "blednykh-gordey-konstantinovich",
@@ -193,7 +245,11 @@
     "position": "стрелок",
     "unit": "987 стрелковый полк 226 стрелковой дивизии",
     "medals": "Медаль «За отвагу» (2); Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "blednykh-sergey-tikhonovich",
@@ -207,7 +263,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "bogdanov-egor-antonovich",
@@ -222,7 +282,11 @@
     "position": "командир взвода",
     "unit": "774 стрелковый полк 222 стрелковой дивизии",
     "medals": "Орден Красной Звезды",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "bogomolov-vasily-gavrilovich",
@@ -234,7 +298,11 @@
     "rank": "старший сержант",
     "unit": "168 отдельный разведывательный батальон",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "bogomolov-egor-yakovlevich",
@@ -246,7 +314,11 @@
     "rank": "рядовой; красноармеец",
     "unit": "1238 стрелковый полк 372 стрелковой дивизии",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "bolyukh-stepan-makarovich",
@@ -260,7 +332,11 @@
     "position": "старшина танковой роты",
     "unit": "54 отдельный танковый полк; 18 армейский запасной стрелковый полк; 59 АБТ",
     "medals": "Орден Отечественной войны II степени; Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "bolyukh-timofey-osipovich",
@@ -275,7 +351,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "borisenko-dmitriy-ivanovich",
@@ -289,7 +369,11 @@
     "position": "механик авиационный",
     "unit": "866 истребительный авиационный полк",
     "medals": "Орден Отечественной войны II степени; Орден Красной Звезды; Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "botsman-andrey-ivanovich",
@@ -304,7 +388,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "botsman-prokopiy-ivanovich",
@@ -318,7 +406,11 @@
     "position": "старшина роты",
     "unit": "158 армейский запасной стрелковый полк",
     "medals": "Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "boyarkin-filipp-efimovich",
@@ -330,7 +422,11 @@
     "rank": "рядовой",
     "unit": "586 стрелковый полк",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "brylev-grigoriy-nikitovich",
@@ -344,10 +440,14 @@
     "unit": "29 лыжная бригада",
     "position": "миномётчик",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
-    "slug": "borisenko-dmitriy-ivanovich",
+    "slug": "bugay-mikhail-ivanovich",
     "name": "Бугай Михаил Иванович",
     "photo": "",
     "heroStoryPhoto": "",
@@ -358,7 +458,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "butrin-vladimir-vasilevich",
@@ -372,7 +476,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "butrin-ivan-vasilevich",
@@ -385,7 +493,11 @@
     "position": "сапёр",
     "unit": "148 стрелковая дивизия; 302 стрелковая дивизия; 2 гвардейский стрелковый полк; 163 саперный батальон",
     "medals": "Орден Отечественной войны II степени; Орден Красной Звезды; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "butrunin-ivan-vasilevich",
@@ -399,7 +511,11 @@
     "position": "стрелок",
     "unit": "302 стрелковая дивизия",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "bukharov-fyodor-nikolaevich",
@@ -413,7 +529,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "vdovik-alexey-zinovievich",
@@ -427,7 +547,11 @@
     "position": "командир огневого взвода",
     "unit": "423 минометный полк; 429 минометный полк; 35 минометная бригада",
     "medals": "Орден Отечественной войны I степени; Орден Красной Звезды; Медаль «За боевые заслуги»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»; Медаль «За взятие Берлина»; Медаль «За освобождение Праги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "vertey-aleksey-petrovich",
@@ -441,7 +565,11 @@
     "position": "наблюдатель метеослужбы",
     "unit": "8 воздушная армия",
     "medals": "Орден Отечественной войны II степени; Медаль «За боевые заслуги»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "vertey-aleksey-rodionovich",
@@ -454,7 +582,11 @@
     "rank": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "vertey-vasily-ivanovich",
@@ -468,7 +600,11 @@
     "position": "командир орудия",
     "unit": "1471 истребительно-противотанковый артиллерийский полк; 83 отдельный истребительно-противотанковый дивизион",
     "medals": "Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "vertey-vasily-melentyevich",
@@ -483,7 +619,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "vertey-grigoriy-ivanovich",
@@ -498,7 +638,11 @@
     "position": "старшина",
     "unit": "командир отделения",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "vertey-grigoriy-rodionovich",
@@ -513,7 +657,11 @@
     "position": "командир отделения разведки",
     "unit": "908 артиллерийский полк 334 стрелковой дивизии",
     "medals": "Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "vertey-dmitriy-leontyevich",
@@ -528,7 +676,11 @@
     "position": "орудийный номер",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "vertey-maksim-ivanovich",
@@ -542,7 +694,11 @@
     "position": "командир батареи",
     "unit": "531 артиллерийский полк; 792 артиллерийский полк; 792 артиллерийский полк 256 стрелковой дивизии",
     "medals": "Орден Отечественной войны I степени; Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "vertey-filipp-ivanovich",
@@ -555,7 +711,11 @@
     "rank": "старшина",
     "unit": "284 гвардейский стрелковый полк 95 гвардейской стрелковой дивизии; склад 354; 587 стрелковый полк 212 стрелковой дивизии; 214 армейский запасной стрелковый полк; 95 гвардейская стрелковая дивизия",
     "medals": "Медаль «За отвагу»; Медаль «За отвагу»; Медаль «За оборону Сталинграда»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "vinogradov-aleksey-stepanovich",
@@ -569,7 +729,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "vinogradov-dmitriy-stepanovich",
@@ -583,7 +747,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "vinogradov-ivan-ivanovich",
@@ -595,7 +763,11 @@
     "rank": "сержант",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "volkov-ivan-dmitrievich",
@@ -609,7 +781,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "volkov-mikhail-yakovlevich",
@@ -622,7 +798,11 @@
     "rank": "",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "volkov-petr-yakovlevich",
@@ -634,7 +814,11 @@
     "rank": "младший лейтенант",
     "unit": "156 гвардейский стрелковый полк 51 гвардейской стрелковой дивизии; 222 армейский запасной стрелковый полк",
     "medals": "Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "voloshin-ivan-feoktistovich",
@@ -648,7 +832,11 @@
     "position": "наводчик орудия",
     "unit": "81 гвардейский отдельный истребительно-противотанковый дивизион; 25 гвардейский стрелковый корпус",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "vorobev-ivan-trofimovich",
@@ -662,7 +850,11 @@
     "position": "командир взвода",
     "unit": "114 отдельный истребительно-противотанковый дивизион; 83 отдельный артиллерийский дивизион; 3 стрелковая дивизия",
     "medals": "Медаль «За боевые заслуги»; Медаль «За победу над Японией»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "galay-sevastian-abramovich",
@@ -675,7 +867,11 @@
     "rank": "заместитель политрука",
     "unit": "148 стрелковая бригада",
     "medals": "Орден Отечественной войны II степени; Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "galay-mikhail-terentevich",
@@ -689,10 +885,14 @@
     "position": "линейный надсмотрщик",
     "unit": "1360 отдельная кабельно-шестовая рота; 1 Украинский фронт",
     "medals": "Орден Отечественной войны II степени; Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
-    "slug": "galushko-pavel-maksimovich",
+    "slug": "galushko-ivan-petrovich",
     "name": "Галушко Иван Петрович",
     "photo": "",
     "heroStoryPhoto": "",
@@ -704,7 +904,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "galushko-pavel-maksimovich",
@@ -717,7 +921,11 @@
     "rank": "рядовой; красноармеец",
     "unit": "23 отдельная штрафная рота 59 армии; 23 штрафная рота; 392 запасной стрелковый полк; эвакуационный госпиталь 2344",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "goga-emelyan-stepanovich",
@@ -732,7 +940,11 @@
     "position": "старший повозочный; стрелок",
     "unit": "371 отдельная гужтранспортная рота 168 стрелковая дивизия 4 армия",
     "medals": "Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "golobokov-vasily-nikitovich",
@@ -747,7 +959,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "golovko-pyotr-markovich",
@@ -761,7 +977,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "golovkov-pyotr-tikhonovich",
@@ -776,7 +996,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "golodnykh-ivan-aleksandrovich",
@@ -789,7 +1013,11 @@
     "rank": "старший сержант",
     "unit": "144 гвардейский стрелковый полк 49 гвардейской стрелковой дивизии; 288 запасной стрелковый полк 23 запасной стрелковой дивизии",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "gorbachev-ivan-fyodorovich",
@@ -804,7 +1032,11 @@
     "position": "стрелок",
     "unit": "364 стрелковый полк 139 стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "gorbachev-nikifor-arkhipovich",
@@ -819,7 +1051,11 @@
     "position": "заместитель командира роты по политической части",
     "unit": "716 стрелковый полк 157 стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "gorlach-alexander-andreevich",
@@ -834,7 +1070,11 @@
     "position": "орудийный номер",
     "unit": "112 стрелковая дивизия",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "gorlach-vladimir-andreevich",
@@ -847,7 +1087,11 @@
     "rank": "старший матрос",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "goryaev-pyotr-fyodorovich",
@@ -861,7 +1105,11 @@
     "position": "санитар",
     "unit": "396 стрелковый полк 135 стрелковой дивизии",
     "medals": "Орден Отечественной войны II степени; Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "grechanov-mikhail-prokhorovich",
@@ -875,7 +1123,11 @@
     "rank": "сержант",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "gricay-pyotr-afanasevich",
@@ -890,7 +1142,11 @@
     "position": "стрелок",
     "unit": "882 стрелковый полк 290 стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "gurzhey-aleksey-yakovlevich",
@@ -904,7 +1160,11 @@
     "rank": "рядовой",
     "unit": "3 гвардейский кавалерийский полк 1 гвардейской кавалерийской дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "gusiletov-grigory-fyodorovich",
@@ -917,7 +1177,11 @@
     "rank": "красноармеец ",
     "unit": "112 стрелковая дивизия",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "gusiletov-pavel-sviridovich",
@@ -931,7 +1195,11 @@
     "rank": "рядовой ",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "gutov-gavrila-vasilevich",
@@ -944,7 +1212,11 @@
     "position": "номер миномёта",
     "unit": "128 минометный полк; 13 армия",
     "medals": "Орден Славы III степени; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»; Медаль «За освобождение Праги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "dmitriev-mikhail-vasilyevich",
@@ -957,7 +1229,11 @@
     "position": "",
     "unit": "авиационная база 19 Тихоокеанского Флота",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "dovganyuk-vasily-ivanovich",
@@ -970,7 +1246,11 @@
     "rank": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "dodenko-grigory-arkhipovich",
@@ -984,7 +1264,11 @@
     "position": "",
     "unit": "68 стрелковый корпус",
     "medals": "Медаль «За боевые заслуги»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»; Медаль «За взятие Будапешта»; Медаль «За взятие Вены»; Медаль «За освобождение Белграда»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "dolzhenko-aleksey-ustinovich",
@@ -999,7 +1283,11 @@
     "position": "пулемётчик; миномётчик",
     "unit": "141 гвардейский стрелковый полк 46 гвардейской стрелковой дивизии; 176 армейский запасной стрелковый полк; 145 запасной стрелковый полк",
     "medals": "Орден Отечественной войны II степени; Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "drobyshev-sergey-evdokimovich",
@@ -1013,7 +1301,11 @@
     "position": "телефонист",
     "unit": "18 гвардейская гаубичная артиллерийская бригада; 6 артиллерийская дивизия прорыва; 18 гаубичная артиллерийская бригада; 1 Белорусский фронт",
     "medals": "Орден Отечественной войны II степени; Орден Красной Звезды; Орден Славы III степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "dubrovny-aleksey-petrovich",
@@ -1028,7 +1320,11 @@
     "position": "командир отделения рулевых",
     "unit": "Камчатский морской пограничный отряд",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "evglevsky-nikolay-fedotovich",
@@ -1042,7 +1338,11 @@
     "position": "стрелок",
     "unit": "9-й кадровый механизированный полк",
     "medals": "Орден Красной Звезды",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "evglevsky-dmitriy-vasilyevich",
@@ -1056,7 +1356,11 @@
     "position": "старший телефонист; командир отделения",
     "unit": "1 Украинский фронт 8 запасной артиллерийский полк Воронежского фронта; 238 гвардейский истребительно-противотанковый артиллерийский полк",
     "medals": "Медаль «За отвагу» (2)",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "evglevsky-pavel-vasilyevich",
@@ -1070,7 +1374,11 @@
     "position": "",
     "unit": "1263 стрелковый полк 381 стрелковой дивизии",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "evzhenko-grigoriy-afanasyevich",
@@ -1084,10 +1392,14 @@
     "position": "",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
-    "slug": "zhakyanov_mazhit",
+    "slug": "zhakyanov-mazhit",
     "name": "Жакьянов Мажить",
     "photo": "",
     "heroStoryPhoto": "",
@@ -1099,7 +1411,11 @@
     "position": "",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zheltonozhko-ivan-vasilevich",
@@ -1113,7 +1429,11 @@
     "position": "воздушный стрелок-радист",
     "unit": "81 гвардейский бомбардировочный авиационный полк; 1 гвардейская бомбардировочная авиационная дивизия",
     "medals": "Орден Отечественной войны I степени; Орден Красной Звезды; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»; Медаль «За взятие Берлина»; Медаль «За освобождение Праги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zhukov-dmitriy-sergeevich",
@@ -1127,7 +1447,11 @@
     "position": "",
     "unit": "52-я мотострелковая бригада",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zakovryazhin-aleksey-andreevich",
@@ -1141,7 +1465,11 @@
     "position": "шофёр",
     "unit": "217 стрелковая дивизия",
     "medals": "Орден Красной Звезды; Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zakovryazhin-mikhail-ivanovich",
@@ -1155,10 +1483,14 @@
     "position": "командир отделения подвоза боеприпасов",
     "unit": "27 танковый полк",
     "medals": "Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
-    "slug": "zakovryashin-mikhail-aleksandrovich",
+    "slug": "zakovryazhin-mikhail-aleksandrovich",
     "name": "Заковряжин Михаил Александрович",
     "photo": "",
     "heroStoryPhoto": "",
@@ -1169,7 +1501,11 @@
     "position": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zakovryashin-ivan-grigorievich",
@@ -1182,7 +1518,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zakovryashin-nikolay-alekseevich",
@@ -1196,7 +1536,11 @@
     "position": "",
     "unit": "",
     "medals": "Медаль «Братство по оружию» I степени - золото; Медаль «60 лет Вооруженным силам Монгольской Народной Республики»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zakovryashin-nikolay-ivanovich",
@@ -1211,7 +1555,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zakovryashin-nikolay-dmitrievich",
@@ -1225,7 +1573,11 @@
     "position": "командир отделения",
     "unit": "940 стрелковый полк 262 стрелковой дивизии",
     "medals": "Медаль «За отвагу»; Медаль «За победу над Японией»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zakovryashin-nikolay-rodionovich",
@@ -1240,7 +1592,11 @@
     "position": "",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zakovryashin-mikhail-aleksandrovich",
@@ -1254,7 +1610,11 @@
     "position": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zakovryashin-sergey-vasilyevich",
@@ -1269,7 +1629,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zaharuta-andrey-evtehkovich",
@@ -1282,7 +1646,11 @@
     "rank": "",
     "unit": "",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zaharuta-vasily-evtehkovich",
@@ -1296,7 +1664,11 @@
     "rank": "",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zaharuta-grigory-evteovich",
@@ -1310,7 +1682,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zaharuta-ivan-evtifeevich",
@@ -1323,7 +1699,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zaharuta-ivan-grigoryevich",
@@ -1336,7 +1716,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zvonaryov-dmitriy-fyodorovich",
@@ -1350,7 +1734,11 @@
     "position": "старший разведчик",
     "unit": "36 запасная стрелковая бригада; 22 учебный стрелковый полк 25 учебной стрелковой дивизии; 943 артиллерийский полк 376 стрелковой дивизии; 389 запасной стрелковый полк; 36 запасная стрелковая дивизия; 191 стрелковая дивизия",
     "medals": "Орден Славы III степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zvonaryov-fyodor-dmitrievich",
@@ -1365,7 +1753,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zizin-vasily-mitrofanovich",
@@ -1378,7 +1770,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "Орден Красной Звезды; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zubikov-vasily-antonovich",
@@ -1391,7 +1787,11 @@
     "rank": "ефрейтор",
     "unit": "176 армейский запасной стрелковый полк; 47 стрелковая дивизия; в/ч п/п 41483; 35 учебный стрелковый полк 27 учебной стрелковой дивизии; 33 стрелковый полк 66 стрелковой дивизии",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "zubikov-mikhail-gavrilovich",
@@ -1403,7 +1803,11 @@
     "rank": "лейтенант",
     "unit": "",
     "medals": "Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "ermola-aleksandr-martynovich",
@@ -1417,7 +1821,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "ivanov-aleksey-terentevich",
@@ -1431,7 +1839,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "ivanov-pavel-terentevich",
@@ -1445,7 +1857,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "ivanoav-valentina-ivanovna",
@@ -1458,7 +1874,11 @@
     "position": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "ivancov-grigoriy-ivanovich",
@@ -1472,7 +1892,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "ignatenko-ilya-yakovlevich",
@@ -1486,7 +1910,11 @@
     "position": "",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "ilyushin-andrey-yakovlevich",
@@ -1498,7 +1926,11 @@
     "rank": "старшина",
     "unit": "",
     "medals": "Медаль «За отвагу»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "ilyushin-ivan-ignatievich",
@@ -1510,7 +1942,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "ilyushin-semyon-sergeevich",
@@ -1522,7 +1958,11 @@
     "rank": "рядовой; красноармеец",
     "unit": "23 запасная стрелковая бригада; 282 стрелковый полк",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "ilyushin-sergey-ignatievich",
@@ -1534,7 +1974,11 @@
     "rank": "рядовой",
     "unit": "9 запасная стрелковая бригада; Пензенский военно-пересыльный пункт, Пензенская обл., г. Пенза",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "ilyushin-fyodor-emelianovich",
@@ -1546,7 +1990,11 @@
     "rank": "рядовой",
     "unit": "622 стрелковый полк 124 стрелковой дивизии",
     "medals": "Орден Отечественной войны II степени; Медаль «За отвагу»; Медаль «За победу над Японией»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "intsibaev-semyon-aleksandrovich",
@@ -1558,7 +2006,11 @@
     "rank": "рядовой",
     "unit": "625-й стрелковый полк 221-я стрелковая дивизия",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kabyshev-zhazit",
@@ -1573,7 +2025,11 @@
     "position": "",
     "unit": "23 запасная стрелковая бригада",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kalinichenko-ivan-semyonovich",
@@ -1587,7 +2043,11 @@
     "position": "",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kamenev-semyon-petrovich",
@@ -1601,7 +2061,11 @@
     "position": "старший писарь подготовки и комплектов",
     "unit": "Тихоокеанский флот",
     "medals": "Медаль «За боевые заслуги»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»; Медаль «За победу над Японией»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kaplyuk-korney-sidorovich",
@@ -1616,7 +2080,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "karpienko-ivan-ilyich",
@@ -1630,7 +2098,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "karpov-nikolay-ivanovich",
@@ -1644,7 +2116,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "katalko-fyodor-makedonovich",
@@ -1656,7 +2132,11 @@
     "rank": "сержант",
     "unit": "1020-й стрелковый батальон",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kvasha-dmitriy-efimovich",
@@ -1670,7 +2150,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kiva-ivan-savelevich",
@@ -1683,7 +2167,11 @@
     "position": "стрелок",
     "unit": "165 стрелковый полк 79 стрелковой дивизии",
     "medals": "Медаль «За отвагу»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kislykh-ivan-petrovich",
@@ -1696,7 +2184,11 @@
     "rank": "",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kleshchenko-nikolay-aleksandrovich",
@@ -1710,7 +2202,11 @@
     "position": "командир отделения",
     "unit": "1244 стрелковый полк 374 стрелковой дивизии; 12 отдельный учебный стрелковый полк",
     "medals": "Орден Славы III степени; Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kovalenko-alexey-ivanovich",
@@ -1722,7 +2218,11 @@
     "rank": "старшинаы",
     "unit": "1093 стрелковый полк 324 стрелковой дивизии",
     "medals": "Медаль «За отвагу» (2); Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kovalenko-vasily-filippovich",
@@ -1734,7 +2234,11 @@
     "rank": "младший лейтенант артиллерийско-технической службы",
     "unit": "1-й танковый полк",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kovalenko-grigory-ivanovich",
@@ -1748,7 +2252,11 @@
     "rank": "",
     "unit": "185 стрелковая дивизия",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kovalenko-ivan-vasilyevich",
@@ -1763,7 +2271,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kovalenko-ilya-ivanovich",
@@ -1777,7 +2289,11 @@
     "position": "командир стрелкового отделения",
     "unit": "272 стрелковый полк 90 стрелковой дивизии",
     "medals": "Орден Отечественной войны I степени; Орден Красной Звезды",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kovalenko-sergey-vladimirovich",
@@ -1792,7 +2308,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kovalyov-pavel-fedoseevich",
@@ -1807,7 +2327,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kovtun-aleksey-filippovich",
@@ -1822,7 +2346,11 @@
     "position": "сапёр-разведчик",
     "unit": "875-й отдельный сапёрный батальон",
     "medals": "Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kozhevnikov-georgy-alekseevich",
@@ -1837,7 +2365,11 @@
     "position": "",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "komarov-grigory-yakovlevich",
@@ -1851,7 +2383,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "komarov-mikhail-andreevich",
@@ -1865,7 +2401,11 @@
     "rank": "младший лейтенант",
     "unit": "57 бомбардировочный авиационный полк",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "komarov-mikhail-nikolaevich",
@@ -1878,7 +2418,11 @@
     "rank": "рядовой",
     "unit": "23 запасная стрелковая бригада",
     "medals": "Орден Отечественной войны I степени; Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "komarov-pavel-sidorovich",
@@ -1892,10 +2436,14 @@
     "position": "номер ПТР; орудийный номер",
     "unit": "245 стрелковая дивизия",
     "medals": "Орден Славы III степени; Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
-    "slug": "kondrashov-iakov-yakovlevich",
+    "slug": "kondrashov-efim-makarovich",
     "name": "Кондрашов Ефим Макарович",
     "photo": "",
     "heroStoryPhoto": "",
@@ -1907,7 +2455,11 @@
     "position": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kondrashov-iakov-yakovlevich",
@@ -1921,7 +2473,11 @@
     "position": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kopylenko-ivan-gavrilovich",
@@ -1935,7 +2491,11 @@
     "position": "автоматчик; подносчик батареи 76 мм пушек",
     "unit": "40 гвардейский стрелковый полк 11 гвардейской стрелковой дивизии; 208 фронтовой запасной стрелковый полк; эвакуационный госпиталь 2913; 18 гвардейская стрелковая дивизия; 1 отдельный стрелковый батальон; 206 фронтовой запасной стрелковый полк; 27 гвардейский стрелковый полк 11 гвардейской стрелковой дивизии; 29 армия",
     "medals": "Орден Отечественной войны I степени; Орден Славы III степени; Медаль «За отвагу» (2)",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kopylenko-ilya-gavrilovich",
@@ -1950,7 +2510,11 @@
     "position": "",
     "unit": "Тихоокеанский флот",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kopylenko-mikhail-petrovich",
@@ -1963,7 +2527,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kopylenko-nikolay-gavrilovich",
@@ -1977,7 +2545,11 @@
     "rank": "рядовой",
     "unit": "стрелок",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kopylenko-osip-gavrilovich",
@@ -1992,7 +2564,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kornienko-ivan-ilyich",
@@ -2007,7 +2583,11 @@
     "position": "стрелок",
     "unit": "1230 стрелковый полк",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kopylenko-pyotr-gavrilovich",
@@ -2020,7 +2600,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kornienko-andrey-ilyich",
@@ -2034,7 +2618,11 @@
     "rank": "рядовой",
     "unit": "994 стрелковый полк 286 стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kostoglodov-alexey-korneevich",
@@ -2047,7 +2635,11 @@
     "rank": "младший сержант",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kostoglodov-semyon-yakovlevich",
@@ -2061,7 +2653,11 @@
     "rank": "рядовой; красноармеец",
     "unit": "1160 стрелковый полк 352 стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kosiakov-ivan-kuzmich",
@@ -2075,7 +2671,11 @@
     "position": "",
     "unit": "21 запасной стрелковый полк 23 запасной стрелковой дивизии",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kosiakov-ivan-spiridovich",
@@ -2090,7 +2690,11 @@
     "position": "",
     "unit": "10 стрелковый полк 3 гвардейской воздушно-десантной дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kosiakov-nikolay-spiridovich",
@@ -2105,7 +2709,11 @@
     "position": "автоматчик",
     "unit": "138 гвардейский стрелковый полк 48 гвардейской стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kosiakov-pyotr-ivanovich",
@@ -2120,7 +2728,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kosiakov-ilya-matveevich",
@@ -2134,7 +2746,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kotolin-ilya-fyodorovich",
@@ -2148,7 +2764,11 @@
     "rank": "гвардии красноармеец",
     "unit": "80 гвардейская стрелковая дивизия",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kotomin-egor-mikhaylovich",
@@ -2161,7 +2781,11 @@
     "rank": "",
     "unit": "813 стрелковый полк 239 стрелковой дивизии; 572 стрелковый полк 233 стрелковой дивизии",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kocheraga-aksentiy-stepanovich",
@@ -2173,7 +2797,11 @@
     "rank": "рядовой",
     "unit": "112-й стрелковый полк",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kocherga-vasily-stepanovich",
@@ -2186,7 +2814,11 @@
     "rank": "сержант",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kochergin-pyotr-dmitrievich",
@@ -2200,7 +2832,11 @@
     "position": "командир орудия",
     "unit": "72 стрелковая дивизия; 9 артиллерийский полк",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kocherov-grigoriy-fyodorovich",
@@ -2213,7 +2849,11 @@
     "position": "повар",
     "unit": "524 минометный полк",
     "medals": "Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kralko-dmitriy-nikitovich",
@@ -2225,7 +2865,11 @@
     "rank": "рядовой",
     "unit": "209-я танковая бригада",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "krivonosov-ivan-arkhipovich",
@@ -2239,7 +2883,11 @@
     "position": "стрелок",
     "unit": "138 стрелковая дивизия",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "krivonosov-nikolay-zakharovich",
@@ -2253,7 +2901,11 @@
     "position": "стрелок",
     "unit": "624 стрелковый полк 137 стрелковой дивизии; 613 стрелковый полк; 137 стрелковая дивизия",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kryuchkov-ivan-ivanovich",
@@ -2267,7 +2919,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kuznecov-stepan-nikiforovich",
@@ -2281,7 +2937,11 @@
     "position": "телефонист",
     "unit": "2 Украинский фронт",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kuzmina-alexandra-grigoryevna",
@@ -2293,7 +2953,11 @@
     "rank": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kuprienko-alexey-ignatievich",
@@ -2305,7 +2969,11 @@
     "rank": "рядовой",
     "unit": "427-й стрелковый полк 192-стрелковой дивизии",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kuprienko-yakov-minaevich",
@@ -2319,7 +2987,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kurinny-vasily-petrovich",
@@ -2334,7 +3006,11 @@
     "position": "командир взвода",
     "unit": "268 стрелковая дивизия; 430 отдельный сапёрный батальон; Ленинградский фронт ",
     "medals": "Орден Красной Звезды",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kukharenko-aleksey-karpovich",
@@ -2347,7 +3023,11 @@
     "rank": "",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kucheruk-ivan-ivanovich",
@@ -2361,7 +3041,11 @@
     "position": "командир отделения",
     "unit": "21 запасной стрелковый полк 23 запасной стрелковой дивизии",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kucheruk-nester-grigorievich",
@@ -2375,7 +3059,11 @@
     "position": "стрелок",
     "unit": "286 стрелковая дивизия",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "lazeev-dmitriy-illarionovich",
@@ -2389,7 +3077,11 @@
     "position": "ездовой",
     "unit": "1083 стрелковый полк 312 стрелковой дивизии; 1083 стрелковый полк",
     "medals": "Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "lazeev-pyotr-illarionovich",
@@ -2403,7 +3095,11 @@
     "position": "ездовой; сапёр",
     "unit": "54 отдельный сапёрный батальон; 5 стрелковая дивизия",
     "medals": "Орден Красной Звезды",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "laptev-lev-semyonovich",
@@ -2417,7 +3113,11 @@
     "position": "",
     "unit": "178 стрелковый полк 40 стрелковой дивизии",
     "medals": "Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "laktionov-ivan-vasilevich",
@@ -2431,7 +3131,11 @@
     "position": "старший инструктор по оргпартработе",
     "unit": "",
     "medals": "Орден Красной Звезды; Медаль «За боевые заслуги»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»; Медаль «За победу над Японией»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "laktionov-ivan-fyodorovich",
@@ -2445,7 +3149,11 @@
     "position": "тракторный механик",
     "unit": "205-я армейская пушечная артиллерийская бригада",
     "medals": "Орден Отечественной войны II степени; Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "laktionov-nikolay-leontievich",
@@ -2457,7 +3165,11 @@
     "rank": "",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "litvinenko-mikhail-petrovich",
@@ -2471,7 +3183,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "lozeev-egor-illarionovich",
@@ -2483,7 +3199,11 @@
     "rank": "красноармеец",
     "unit": "288 запасной стрелковый полк 23 запасной стрелковой дивизии; ст. Ефремово",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "lukyanov-fedot-pavlovich",
@@ -2497,7 +3217,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "luchin-ivan-mikhaylovich",
@@ -2511,7 +3235,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "luchin-timofey-ivanovich",
@@ -2525,7 +3253,11 @@
     "position": "стрелок",
     "unit": "682 стрелковый полк 202 стрелковой дивизии",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "luchkin-andrey-dmitrievich",
@@ -2539,7 +3271,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "luchkin-pavel-mikheevich",
@@ -2552,7 +3288,11 @@
     "position": "",
     "unit": "",
     "medals": "Орден Красной Звезды",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "lushpay-dmitriy-vasilyevich",
@@ -2566,7 +3306,11 @@
     "position": "ездовой",
     "unit": "39 стрелковый полк 4 стрелковой дивизии; 39 стрелковый полк 4 стрелковой дивизии",
     "medals": "Медаль «За боевые заслуги»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "lushpay-dmitriy-grigorievich",
@@ -2580,7 +3324,11 @@
     "position": "радиотелеграфист",
     "unit": "592 истребительно-противотанковый артиллерийский полк",
     "medals": "Орден Отечественной войны II степени; Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "malykh-mikhail-ivanovich",
@@ -2594,7 +3342,11 @@
     "position": "орудийный номер",
     "unit": "110 гвардейская стрелковая дивизия",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "manko-evden-ignatievich",
@@ -2607,7 +3359,11 @@
     "rank": "",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "maslov-dmitriy-petrovich",
@@ -2620,7 +3376,11 @@
     "rank": "военветфельдшер",
     "unit": "1 отдельный стрелковый батальон 44 стрелковая бригада",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "markin-nikolay-konstantinovich",
@@ -2632,7 +3392,11 @@
     "rank": "рядовой",
     "unit": "1198-й стрелковый полк 359-й стрелковой дивизии",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "mahinya-andrey-aleksandrovich",
@@ -2646,7 +3410,11 @@
     "position": "",
     "unit": "81 запасной стрелковый полк; 234 фронтовой запасной стрелковый полк",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "meleshko-grigoriy-markovich",
@@ -2660,7 +3428,11 @@
     "position": "",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "meshkov-pavel-rodionovich",
@@ -2673,7 +3445,11 @@
     "position": "",
     "unit": "",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "miterko-pyotr-ivanovich",
@@ -2688,7 +3464,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "molko-evdey-ignatievich",
@@ -2702,7 +3482,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "monko-ivan-andreevich",
@@ -2714,7 +3498,11 @@
     "rank": "старший лейтенант",
     "unit": "",
     "medals": "Медаль «За боевые заслуги»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "monrev-vasily-ivanovich",
@@ -2726,7 +3514,11 @@
     "rank": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "mosinets-vladimir-savelevich",
@@ -2738,7 +3530,11 @@
     "rank": "",
     "unit": "69-й стрелковый полк 97-й стрелковой дивизии",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "mosinets-sergey-vakulovich",
@@ -2752,7 +3548,11 @@
     "position": "стрелок",
     "unit": "69-й стрелковый полк 97-й стрелковой дивизии",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "mosincev-ivan-savelyevich",
@@ -2766,7 +3566,11 @@
     "position": "разведчик",
     "unit": "267 минометный полк 1 гвардейский механизированный корпус; 12 отдельный учебный стрелковый полк",
     "medals": "Орден Отечественной войны I степени; Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "muzhilkin-maksim-sergeevich",
@@ -2779,7 +3583,11 @@
     "rank": "рядовой",
     "unit": "Амурский Флот",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "muravyov-gavrilo-fedorovich",
@@ -2792,7 +3600,11 @@
     "rank": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "muravyov-pyotr-mikhaylovich",
@@ -2805,7 +3617,11 @@
     "rank": "рядовой",
     "unit": "21 запасной стрелковый полк 23 запасной стрелковой дивизии",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "myshin-vasiliy-vlasovich",
@@ -2818,7 +3634,11 @@
     "rank": "рядовой",
     "unit": "21 запасной стрелковый полк 23 запасной стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "naumenko-vasily-nikolaevich",
@@ -2831,7 +3651,11 @@
     "rank": "рядовой",
     "unit": "23 запасная стрелковая бригада",
     "medals": "Орден Отечественной войны I степени; Медаль «За боевые заслуги»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "naumenko-vasily-yakovlevich",
@@ -2845,7 +3669,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "naumenko-nikolay-vasilievich",
@@ -2857,7 +3685,11 @@
     "rank": "",
     "unit": "23 запасная стрелковая бригада",
     "medals": "Орден Отечественной войны I степени; Медаль «За боевые заслуги»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "naumenko-pyotr-yakovlevich",
@@ -2871,7 +3703,11 @@
     "position": "стрелок",
     "unit": "759 стрелковый полк 163 стрелковой дивизии",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "nepochatov-fyodor-grigorievich",
@@ -2884,7 +3720,11 @@
     "rank": "",
     "unit": "Тихоокеанский флот",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "nepochatyh-vasily-ostafievich",
@@ -2897,7 +3737,11 @@
     "rank": "",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "nepochatyh-ivan-mikhaylovich",
@@ -2910,7 +3754,11 @@
     "position": "стрелок",
     "unit": "33 стрелковый полк 66 стрелковой дивизии",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "nepochatyh-nikolay-evstafyevich",
@@ -2922,7 +3770,11 @@
     "rank": "рядовой",
     "unit": "37 сапёрный батальон",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "nikitenko-ivan-egorovich",
@@ -2935,7 +3787,11 @@
     "position": "наводчик; пулемётчик; командир расчёта",
     "unit": "981 стрелковый полк 253 стрелковой дивизии; 21 стрелковый корпус",
     "medals": "Орден Отечественной войны I степени; Орден Отечественной войны II степени; Медаль «За отвагу» (2); Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "nikitenko-ivan-kirillovich",
@@ -2948,7 +3804,11 @@
     "position": "",
     "unit": "289 запасной стрелковый полк 43 запасной стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "novikov-aleksander-konstantinovich",
@@ -2961,7 +3821,11 @@
     "position": "комендант первого района г.Бреслау",
     "unit": "6 армия 521 стрелковый полк; 22 запасной стрелковый полк 23 запасной стрелковой дивизии",
     "medals": "Орден Красной Звезды; Медаль «За боевые заслуги» (2); Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "novikov-sergey-ivanovich",
@@ -2974,7 +3838,11 @@
     "position": "",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "novichenko-pyotr-stepanovich",
@@ -2988,7 +3856,11 @@
     "position": "",
     "unit": "",
     "medals": "Орден Отечественной войны I степени; Орден Красной Звезды",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "novichenko-yakov-tikhonovich",
@@ -3002,7 +3874,11 @@
     "position": "командир взвода",
     "unit": "209 танковая бригада; 258 стрелковая дивизия; 34-й механизированный полк 10-й танковой дивизии",
     "medals": "Орден Красного Знамени; Медаль «За боевые заслуги»; Медаль «За победу над Японией»; Золотая медаль «Серп и Молот»; Герой Труда КНДР; Орден Государственного флага I степени; Орден Государственного флага III степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "novosyolov-aleksey-fyodorovich",
@@ -3017,7 +3893,11 @@
     "position": "",
     "unit": "1 гвардейская мотострелковая дивизия; 186 армейский запасной стрелковый полк; 1 гвардейская стрелковая дивизия",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "oblecov-ivan-ignatyevich",
@@ -3030,7 +3910,11 @@
     "rank": "старшина",
     "unit": "",
     "medals": "Орден Красного Знамени; Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "obukhov-varlam-semyonovich",
@@ -3045,7 +3929,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "obukhov-stepan-semyonovich",
@@ -3060,7 +3948,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "ovchinnikov-alexander-emelianovich",
@@ -3073,7 +3965,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "ovchinnikov-kuzma-emelianovich",
@@ -3086,7 +3982,11 @@
     "position": "орудийный номер",
     "unit": "339 авиационный полк Дальнего действия",
     "medals": "Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "osipkov-grigory-ivanovich",
@@ -3100,7 +4000,11 @@
     "position": "стрелок",
     "unit": "284 стрелковый полк 86 стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "pavlenko-aleksey-nikitovich",
@@ -3113,7 +4017,11 @@
     "rank": "младший лейтенант",
     "unit": "5 гвардейский отдельный минометный дивизион 21 гвардейской стрелковой дивизии; 7 запасной стрелковый полк 1 запасной стрелковой дивизии",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "pavlenko-andrey-fyodorovich",
@@ -3127,7 +4035,11 @@
     "position": "стрелок",
     "unit": "89 гвардейский стрелковый полк 28 гвардейской стрелковой дивизии",
     "medals": "Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "pavlyuk-mikhail-ivanovich",
@@ -3140,7 +4052,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "panov-andrey-panteleevich",
@@ -3154,7 +4070,11 @@
     "position": "командир отделения",
     "unit": "80 стрелковая дивизия; 267 запасной стрелковый полк; 36 запасная стрелковая бригада; 47 запасной стрелковый полк 5 запасной стрелковой дивизии",
     "medals": "Медаль «За отвагу»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "parfentyev-fyodor-yakovlevich",
@@ -3168,7 +4088,11 @@
     "position": "артиллерийский мастер",
     "unit": "938 артиллерийский полк",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "parshin-alexander-ermolaevich",
@@ -3183,7 +4107,11 @@
     "position": "стрелок",
     "unit": "237 мотострелковый полк",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "parshin-mikhail-vasilievich",
@@ -3197,7 +4125,11 @@
     "position": "",
     "unit": "268 стрелковый полк 48 стрелковой дивизии; 162 гвардейский стрелковый полк 54 гвардейской стрелковой дивизии; 162 стрелковый полк 327 стрелковой дивизии; 22 учебный стрелковый полк 25 учебной стрелковой дивизии; 389 запасной стрелковый полк 36 запасная стрелковая дивизия",
     "medals": "Орден Отечественной войны I степени; Орден Красной Звезды; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "perlik-pyotr-fomich",
@@ -3212,7 +4144,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "pisarenko-ivan-semyonovich",
@@ -3226,7 +4162,11 @@
     "position": "командир огневого взвода батареи 76 мм пушек",
     "unit": "233 стрелковый полк 97 стрелковой дивизии; 184 стрелковый полк 56 стрелковой дивизии; Западно-Сибирский военный округ; Тихоокеанский флот",
     "medals": "Орден Отечественной войны II степени; Орден Красной Звезды; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»; Медаль «За победу над Японией»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "pisaych-ivan-konstantinovich",
@@ -3238,7 +4178,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "Медаль «За боевые заслуги»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "pogorelsky-ivan-emelianovich",
@@ -3251,7 +4195,11 @@
     "rank": "рядовой",
     "unit": "274 гаубичный артиллерийский полк; 92 запасной стрелковый полк; 59 запасной стрелковый полк 13 запасной стрелковой дивизии; 37 гвардейская стрелковая дивизия ",
     "medals": "Орден Отечественной войны II степени; Медаль «За оборону Сталинграда»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "pogorelsky-pyotr-petrovich",
@@ -3264,7 +4212,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "pogorelsky-stepan-ivanovich",
@@ -3279,7 +4231,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "pogrebnyak-vasily-evseevich",
@@ -3294,7 +4250,11 @@
     "position": "шофёр",
     "unit": "29 зенитная артиллерийская дивизия; 214 армейский запасной стрелковый полк",
     "medals": "Медаль «За боевые заслуги»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "podgainy-ivan-petrovich",
@@ -3308,7 +4268,11 @@
     "position": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "podgainy-nikolay-petrovich",
@@ -3322,7 +4286,11 @@
     "position": "шофёр",
     "unit": "1 минометная бригада; 106 минометный полк; 369 стрелковый полк 212 стрелковой дивизии",
     "medals": "Орден Отечественной войны II степени; Орден Красной Звезды; Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "podgaicev-ivan-petrovich",
@@ -3336,7 +4304,11 @@
     "position": "",
     "unit": "289 запасной стрелковый полк 43 запасной стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "polyakov-ivan-egorovich",
@@ -3349,7 +4321,11 @@
     "position": "младший политрук",
     "unit": "1239 стрелковый полк 373 стрелковой дивизии; 55 запасной стрелковый полк 5 запасной стрелковой дивизии; ПП, Львовская обл., с. Сокольники; местная контора Наркомхимпром, ст. Сталиногорск; 931 артиллерийский полк 373 стрелковой дивизии",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "polyansky-alexey-fyodorovich",
@@ -3361,7 +4337,11 @@
     "rank": "рядовой; красноармеец",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "polyansky-andrey-yakovlevich",
@@ -3373,10 +4353,14 @@
     "rank": "рядовой; красноармеец",
     "unit": "120 отдельный дорожно-эксплуатационный батальон; 112 запасной стрелковый полк; 1014 отдельный батальон связи 132 стрелкового корпуса ",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
-    "slug": "polyansky-ivan-andreevich",
+    "slug": "polyansky-vasiliy-ivanovich",
     "name": "Полянский Василий Иванович",
     "photo": "",
     "yearsOfLife": "1915 — 1942",
@@ -3386,7 +4370,11 @@
     "position": "заряжающий; наводчик",
     "unit": "24-я танковая бригада",
     "medals": "Орден Красной Звезды; Медаль «За отвагу»; Медаль «За оборону Москвы»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "polyansky-ivan-andreevich",
@@ -3399,7 +4387,11 @@
     "position": "заряжающий; наводчик",
     "unit": "24-я танковая бригада",
     "medals": "Орден Красной Звезды; Медаль «За отвагу»; Медаль «За оборону Москвы»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "polyansky-platon-fedorovich",
@@ -3412,7 +4404,11 @@
     "position": "1-й номер станкового пулемёта",
     "unit": "1086 стрелковый полк 323 стрелковой дивизии; 35 стрелковый корпус",
     "medals": "Орден Отечественной войны I степени; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "popov-aleksey-grigorievich",
@@ -3424,7 +4420,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "popov-ivan-emelianovich",
@@ -3436,7 +4436,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "popov-pavel-emelianovich",
@@ -3450,10 +4454,14 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
-    "slug": "popov-pavel-emelianovich",
+    "slug": "popov-pavel-emelianovich-2",
     "name": "Попов Павел Емельянович",
     "photo": "",
     "yearsOfLife": "1918 — ?",
@@ -3462,7 +4470,11 @@
     "rank": "сержант",
     "unit": "5 стрелковый корпус",
     "medals": "Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "potarev-ilya-vasilievich",
@@ -3477,7 +4489,11 @@
     "position": "пекарь фронтового ПАХ (Полевого Автохлебозавода); стрелок",
     "unit": "342 стрелковая дивизия, Ленинградский фронт",
     "medals": "Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "prikhodin-andrey-mironovich",
@@ -3491,7 +4507,11 @@
     "position": "повар; наводчик батареи 76 мм пушек",
     "unit": "п/п 325; 1137 стрелковый полк 339 Таманской стрелковой дивизии",
     "medals": "Орден Славы II степени; Орден Славы III степени; Медаль «За отвагу»; Медаль «За оборону Кавказа»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "prikhodin-ivan-mironovich",
@@ -3505,7 +4525,11 @@
     "position": "командир отделения",
     "unit": "Резерв Главного командования; 42 мото-инженерная бригада",
     "medals": "Орден Красной Звезды; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "prikhodko-ivan-yakovlevich",
@@ -3520,7 +4544,11 @@
     "position": "",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "procenko-vlas-fyodorovich",
@@ -3535,7 +4563,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "procenko-nikita-fyodorovich",
@@ -3550,7 +4582,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "prutov-vasily-mitrofanovich",
@@ -3563,7 +4599,11 @@
     "position": "орудийный номер",
     "unit": "447 зенитный артиллерийский полк",
     "medals": "Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "puzikov-vasily-yakovlevich",
@@ -3577,7 +4617,11 @@
     "position": "стрелок",
     "unit": "929 стрелковый полк 254 стрелковой дивизии; 254 стрелковая дивизия",
     "medals": "Орден Славы III степени; Медаль «За отвагу» (2); Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "puzynin-alexander-fyodorovich",
@@ -3590,7 +4634,11 @@
     "position": "орудийный номер",
     "unit": "436 артиллерийский полк 112 мотострелковой дивизии",
     "medals": "Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "puzynin-alexey-fedotovich",
@@ -3602,7 +4650,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "pupyshev-ivan-ivanovich",
@@ -3616,7 +4668,11 @@
     "position": "командир взвода танков",
     "unit": "24 гвардейская танковая бригада 55 гвардейский танковый полк 12 гвардейской механизированной бригады 5 гвардейского механизированного корпуса",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "raevsky-ilya-mikhaylovich",
@@ -3629,7 +4685,11 @@
     "rank": "сержант",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "rakhmanin-alexey-mikhailovich",
@@ -3641,7 +4701,11 @@
     "rank": "рядовой; красноармеец ",
     "unit": "1603 аэродромный полк противовоздушной обороны; 1063 стрелковый полк 272 стрелковой дивизии",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "rakhmanin-efim-stepanovich",
@@ -3653,7 +4717,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "rakhmanin-yakov-stepanovich",
@@ -3665,7 +4733,11 @@
     "rank": "краснофлотец | старший сержант",
     "unit": "",
     "medals": "Орден Красного Знамени; Орден Отечественной войны I степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "rachickiy-leonid-grigoryevich",
@@ -3677,7 +4749,11 @@
     "rank": "старший сержант",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "reznechenko-pyotr-mikhailovich",
@@ -3689,7 +4765,11 @@
     "rank": "старший сержант",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "remarchuk-vasily-semenovich",
@@ -3701,7 +4781,11 @@
     "rank": "подполковник медицинской службы",
     "unit": "полевой подвижной госпиталь 520; военный госпиталь 303",
     "medals": "Орден Красной Звезды; Медаль «За боевые заслуги»; Медаль «За победу над Японией»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "remizov-vasily-yakovlevich",
@@ -3715,7 +4799,11 @@
     "rank": "старший сержант",
     "unit": "610 отдельный батальон связи; 229 стрелковая дивизия",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "rechkunov-grigoriy-ivanovich",
@@ -3730,7 +4818,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "rechkunov-alexander-ilyich",
@@ -3744,7 +4836,11 @@
     "position": "стрелок",
     "unit": "622 стрелковый полк 124 стрелковой дивизии",
     "medals": "Медаль «За отвагу»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»; Медаль «За победу над Японией»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "rovko-nikolay-makarovich",
@@ -3756,7 +4852,11 @@
     "rank": "сержант",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "romanko-ivan-afanasyevich",
@@ -3769,7 +4869,11 @@
     "rank": "",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "romanko-ivan-markovich",
@@ -3781,10 +4885,14 @@
     "rank": "гвардии младший сержант",
     "unit": "14 батальон морской пехоты; 13 гвардейская бригада морской пехоты",
     "medals": "Медаль «За победу над Японией»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
-    "slug": "romanko-ivan-markovich",
+    "slug": "romankov-andrey-markovich",
     "name": "Романков Андрей Маркович",
     "photo": "Романков Андрей Маркович.webp",
     "yearsOfLife": "1912 — 1998",
@@ -3794,7 +4902,11 @@
     "position": "шофёр",
     "unit": "202 запасной стрелковый полк; 195 гвардейский запасной стрелковый полк ",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "romanov-alexander-aleksandrovich",
@@ -3807,7 +4919,11 @@
     "rank": "младший лейтенант",
     "unit": "11 стрелковая бригада",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "romanov-nikolay-aleksandrovich",
@@ -3821,7 +4937,11 @@
     "position": "пулемётчик",
     "unit": "18 гвардейский стрелковый полк 9 гвардейской стрелковой дивизии",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "rubcov-vasily-danilovich",
@@ -3835,7 +4955,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "rubcov-nikolay-grigoryevich",
@@ -3849,7 +4973,11 @@
     "position": "",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "savchenko-aleksey-platonovich",
@@ -3861,7 +4989,11 @@
     "rank": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "savchenko-ivan-stepanovich",
@@ -3873,7 +5005,11 @@
     "rank": "",
     "unit": "",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "savchenko-pavel-markovich",
@@ -3885,10 +5021,14 @@
     "rank": "рядовой",
     "unit": "316-й стрелковый полк",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
-    "slug": "savchenko-ivan-stepanovich",
+    "slug": "saenko-lukyan-ignatovich",
     "name": "Саенко Лукьян Игнатьевич",
     "photo": "",
     "yearsOfLife": "1910 — 1943",
@@ -3898,7 +5038,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sazhko-andrey-nikitovich",
@@ -3911,7 +5055,11 @@
     "position": "командир расчёта",
     "unit": "4 гвардейская армия; полевой армейский артиллерийский склад 2667",
     "medals": "Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sazhko-luka-ignatovich",
@@ -3925,10 +5073,14 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
-    "slug": "sazhko-luka-ignatovich",
+    "slug": "sazhko-fedor-ignatovich",
     "name": "Сажко Фёдор Игнатьевич",
     "photo": "",
     "yearsOfLife": "1902 — ?",
@@ -3938,7 +5090,11 @@
     "position": "",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "samarets-georgiy-grigorevich",
@@ -3950,7 +5106,11 @@
     "rank": "рядовой",
     "unit": "864-й стрелковый полк 189-й стрелковой дивизии",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "samarets-egor-grigorievich",
@@ -3963,7 +5123,11 @@
     "rank": "рядовой",
     "unit": "21 запасной стрелковый полк 23 запасной стрелковой дивизии",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "samarets-mikhail-fedorovich",
@@ -3977,7 +5141,11 @@
     "position": "разведчик",
     "unit": "544 отдельная разведывательная рота",
     "medals": "Орден Отечественной войны I степени; Орден Отечественной войны II степени; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»; Медаль «За освобождение Праги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "samoylov-vladimir-timofeevich",
@@ -3990,10 +5158,14 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
-    "slug": "samoylov-vladimir-timofeevich",
+    "slug": "samoylov-ivan-yakovlevich",
     "name": "Самойлов Иван Яковлевич",
     "photo": "",
     "heroStoryPhoto": "",
@@ -4003,7 +5175,11 @@
     "rank": "старшина",
     "unit": "",
     "medals": "Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sedyuk-pavel-yakovlevich",
@@ -4017,7 +5193,11 @@
     "position": "",
     "unit": "",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sedyuk-iakov-efimovich",
@@ -4031,7 +5211,11 @@
     "position": "",
     "unit": "1012 стрелковый полк 288 стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sedyuk-ivan-yakovlevich",
@@ -4045,7 +5229,11 @@
     "position": "",
     "unit": "Тихоокеанский флот",
     "medals": "Орден Отечественной войны II степени; Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "selin-ilya-nikonorovich",
@@ -4059,7 +5247,11 @@
     "position": "телефонист",
     "unit": "38 гаубичная артиллерийская бригада; 754 гаубичный артиллерийский полк",
     "medals": "Орден Красной Звезды; Медаль «За оборону Ленинграда»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sencha-anna-maksimovna",
@@ -4073,7 +5265,11 @@
     "position": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "serov-vasily-ivanovich",
@@ -4087,7 +5283,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "serov-stepan-ivanovich",
@@ -4102,7 +5302,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "simonenko-alexander-artemovich",
@@ -4115,7 +5319,11 @@
     "rank": "рядовой",
     "unit": "835 стрелковый полк 237 стрелковой дивизии; 835 стрелковый полк; 322 стрелковая дивизия",
     "medals": "Орден Отечественной войны I степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "simonenko-sergey-tikhonovich",
@@ -4130,7 +5338,11 @@
     "position": "химический инструктор",
     "unit": "616 минометный полк",
     "medals": "Орден Отечественной войны II степени; Медаль «За отвагу» (2)",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "simonov-trofim-petrovich",
@@ -4144,7 +5356,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "siyunichi-salimzhan",
@@ -4156,7 +5372,11 @@
     "rank": "",
     "unit": "",
     "medals": "Орден Отечественной войны I степени; Орден Красной Звезды; Медаль «За боевые заслуги»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "skiba-danil-ivanovich",
@@ -4170,7 +5390,11 @@
     "position": "",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "skiba-ivan-danilovich-1897",
@@ -4184,7 +5408,11 @@
     "position": "стрелок",
     "unit": "91 гвардейская стрелковая дивизия",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "skiba-ivan-danilovich-1922",
@@ -4198,7 +5426,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sklyanov-alexey-ivanovich",
@@ -4211,7 +5443,11 @@
     "rank": "рядовой",
     "unit": "272 гвардейский стрелковый полк 90 гвардейской стрелковой дивизии; 599 стрелковый полк 145 стрелковой дивизии; 306 стрелковая дивизия; 186 армейский запасной стрелковый полк",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sklyanov-andrey-vasilievich",
@@ -4225,7 +5461,11 @@
     "position": "автоматчик; пулемётчик",
     "unit": "272 гвардейский стрелковый полк 90 гвардейской стрелковой дивизии; 599 стрелковый полк 145 стрелковой дивизии; 306 стрелковая дивизия; 186 армейский запасной стрелковый полк",
     "medals": "Медаль «За отвагу» (3)",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sklyanov-egor-ivanovich",
@@ -4239,7 +5479,11 @@
     "position": "стрелок",
     "unit": "633 стрелковый полк 157 стрелковой дивизии; 633 стрелковый полк; 154 стрелковая дивизия",
     "medals": "Орден Отечественной войны I степени; Орден Славы III степени; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sklyanov-semyon-ivanovich",
@@ -4251,7 +5495,11 @@
     "rank": "рядовой",
     "unit": "28 гаубичный артиллерийский полк",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "skorin-ivan-grigoryevich",
@@ -4265,7 +5513,11 @@
     "position": "командир орудия СУ-76",
     "unit": "75 самоходно-артиллерийский полк",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "skorin-ivan-stepanovich",
@@ -4278,7 +5530,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "skorin-nikolay-stepanovich",
@@ -4291,7 +5547,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "skorin-mikhail-grigoryevich",
@@ -4304,7 +5564,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "skorin-nikolay-grigoryevich",
@@ -4318,7 +5582,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sosunov-mikhail-timofeevich",
@@ -4331,7 +5599,11 @@
     "rank": "старший лейтенант",
     "unit": "22 запасной стрелковый полк 23 запасной стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sosunov-pyotr-petrovich",
@@ -4346,7 +5618,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "stadnichuk-maksim-artemevich",
@@ -4361,7 +5637,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "stadnichuk-maksim-maksimovich",
@@ -4375,7 +5655,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "stecko-dmitriy-evdokimovich",
@@ -4390,7 +5674,11 @@
     "position": "",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "stecko-timofei-evdokimovich",
@@ -4405,7 +5693,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "suzdalcev-vasily-ivanovich",
@@ -4419,7 +5711,11 @@
     "position": "санитар; автоматчик",
     "unit": "9 гвардейская механизированная бригада",
     "medals": "Орден Красной Звезды",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "suvorov-andrey-grigorievich",
@@ -4433,7 +5729,11 @@
     "position": "хлебопёк полевой хлебопекарни",
     "unit": "247 стрелковая дивизия 25 стрелковый корпус",
     "medals": "Орден Отечественной войны II степени; Орден Красной Звезды; Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sukov-aleksey-dmitrievich",
@@ -4447,7 +5747,11 @@
     "position": "командир отделения связи",
     "unit": "236 зенитная артиллерийская батарея, Резерв Главного командования, Калининский фронт",
     "medals": "Медаль «За боевые заслуги» (2); Медаль «За оборону Москвы»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sukov-andrey-dmitrievich",
@@ -4462,7 +5766,11 @@
     "position": "",
     "unit": "101-й отдельный лыжный батальон",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sukov-grigoriy-ivanovich",
@@ -4477,7 +5785,11 @@
     "position": "номер орудийного расчёта 57 мм пушки; командир орудия истребительной противотанковой батареи",
     "unit": "67 механизированная бригада",
     "medals": "Орден Отечественной войны II степени; Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sukov-pyotr-dmitrievich",
@@ -4491,7 +5803,11 @@
     "position": "командир взвода 2 армейской трофейной роты",
     "unit": "27 гвардейский стрелковый полк 11 гвардейской стрелковой дивизии; 2 отдельная техническая трофейная рота; 11 гвардейская армия; 4 армия",
     "medals": "Орден Отечественной войны I степени; Орден Красной Звезды; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»; Медаль «За взятие Кёнигсберга»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "talalay-ivan-efimovich",
@@ -4505,7 +5821,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "tarabykin-alexander-andreevich",
@@ -4518,7 +5838,11 @@
     "position": "телефонист",
     "unit": "592 отдельный батальон связи; 219 стрелковая дивизия",
     "medals": "Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "tarabykin-mikhail-nikitovich",
@@ -4531,7 +5855,11 @@
     "position": "телефонист",
     "unit": "3 лыжная бригада Карельского фронта; 187 гвардейский стрелковый полк 61 гвардейской стрелковой дивизии",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "terekhina-elena-andreevna",
@@ -4544,7 +5872,11 @@
     "position": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "tereschenko-vasily-petrovich",
@@ -4558,7 +5890,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "tereschenko-dmitriy-samoylovich",
@@ -4572,7 +5908,11 @@
     "position": "пилот",
     "unit": "597 лёгко-бомбардировочный авиационный полк; 597 ближне-бомбардировочный авиационный полк",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "tkachyov-ivan-mikhailovich",
@@ -4585,7 +5925,11 @@
     "position": "разведчик",
     "unit": "3 гвардейская стрелковая дивизия",
     "medals": "Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "tkachyov-ivan-fyodorovich",
@@ -4599,7 +5943,11 @@
     "position": "",
     "unit": "53 гвардейская стрелковая дивизия ",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "tkachyov-roman-davidovich",
@@ -4612,7 +5960,11 @@
     "position": "связист",
     "unit": "Горьковский военно-пересыльный пункт (он же Нижегородский), Горьковская обл., г. Горький; эвакуационный госпиталь 282; 5 запасной пехотный полк",
     "medals": "Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "tkachyov-stepan-fyodorovich",
@@ -4624,7 +5976,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "Медаль «За боевые заслуги»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "tolstych-leonid-trofimovich",
@@ -4637,7 +5993,11 @@
     "position": "связист",
     "unit": "115 кавалерийский полк 8 кавалерийской дивизии",
     "medals": "Медаль «За отвагу»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "tolstych-stepan-trofimovich",
@@ -4651,7 +6011,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "tretyakov-andrey-fyodorovich",
@@ -4665,7 +6029,11 @@
     "position": "стрелок",
     "unit": "19 запасной стрелковый полк 22 запасной стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "tropin-aleksandr-andreevich",
@@ -4679,7 +6047,11 @@
     "position": "шофёр",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "trostyanskiy-ivan-pavlovich",
@@ -4692,7 +6064,11 @@
     "position": "",
     "unit": "23 запасная стрелковая бригада",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "tureckiy-ivan-dmitrievich",
@@ -4706,7 +6082,11 @@
     "position": "сапёр",
     "unit": "157 стрелковая дивизия; 32 инженерно-саперная бригада",
     "medals": "Орден Отечественной войны I степени; Медаль «За боевые заслуги»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»; Медаль «За победу над Японией»; Медаль «За взятие Кёнигсберга»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "udovik-grigoriy-afonasyevich",
@@ -4720,7 +6100,11 @@
     "position": "телефонист",
     "unit": "8 стрелковая дивизия",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "usoltsev-vasily-nikitovich",
@@ -4733,7 +6117,11 @@
     "position": "командир отделения",
     "unit": "1265 стрелковый полк 382 стрелковой дивизии; 1268 стрелковый полк 385 стрелковой дивизии",
     "medals": "Орден Отечественной войны I степени; Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "usoltsev-dmitriy-petrovich",
@@ -4746,7 +6134,11 @@
     "position": "",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "khanin-nikolay-maksimovich",
@@ -4761,7 +6153,11 @@
     "position": "стрелок",
     "unit": "237 мотострелковый полк; 97 стрелковая дивизия",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kharlamov-vasily-aleksandrovich",
@@ -4776,7 +6172,11 @@
     "position": "",
     "unit": "738 стрелковый полк; 134 стрелковая дивизия",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "kharlanov-vasily-fyodorovich",
@@ -4790,7 +6190,11 @@
     "position": "",
     "unit": "22 запасной стрелковый полк 23 запасной стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "khlebnikov-grigory-gerasimovich",
@@ -4804,7 +6208,11 @@
     "position": "",
     "unit": "21 запасной стрелковый полк 23 запасной стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "khoroshko-grigoriy-timofeevich",
@@ -4818,7 +6226,11 @@
     "position": "наводчик 82 мм миномёта",
     "unit": "2 стрелковый полк; 2 стрелковый полк 50 стрелковой дивизии; 41 армейский запасной стрелковый полк; 28 запасной стрелковый полк 30 запасной стрелковой бригады; 50 гвардейская стрелковая дивизия",
     "medals": "Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "khokhulya-alexey-andreevich",
@@ -4830,7 +6242,11 @@
     "rank": "рядовой",
     "unit": "203-й стрелковый полк 92-й стрелковой дивизии",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "cukanov-vasily-mitrofanovich",
@@ -4843,7 +6259,11 @@
     "rank": "",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "cukanov-mikhail-mitrofanovich",
@@ -4855,7 +6275,11 @@
     "rank": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "chebakov-timofey-yakovlevich",
@@ -4869,7 +6293,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "cherepanov-aleksandr-ivanovich",
@@ -4883,7 +6311,11 @@
     "position": "стрелок",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "cherepanov-ivan-tikhonovich",
@@ -4897,7 +6329,11 @@
     "position": "командир отделения стрелковой роты",
     "unit": "854 стрелковый полк 277 стрелковой дивизии; 111 стрелковый полк; 202 запасной стрелковый полк; 5 армия; 161 стрелковый полк",
     "medals": "Медаль «За боевые заслуги»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»; Медаль «За взятие Кёнигсберга»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "chirkov-alexey-fyodorovich",
@@ -4909,7 +6345,11 @@
     "rank": "рядовой",
     "unit": "994 стрелковый полк 286 стрелковой дивизии",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "chirkov-vladimir-fyodorovich",
@@ -4923,7 +6363,11 @@
     "position": "командир взвода связи; командир кабельно-мостового взвода",
     "unit": "24 гвардейский стрелковый корпус; 132 гвардейский отдельный батальон связи 24 гвардейского стрелкового корпуса; Киевское ВУ связи им. Калинина",
     "medals": "Орден Отечественной войны II степени (2); Орден Красной Звезды; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»; Медаль «За освобождение Праги»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "chirkov-dmitriy-ananyevich",
@@ -4938,7 +6382,11 @@
     "position": "помощник командира взвода",
     "unit": "203 гвардейский стрелковый полк 70 гвардейской стрелковой дивизии",
     "medals": "Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "chuprin-ivan-zakharovich",
@@ -4950,7 +6398,11 @@
     "rank": "рядовой; красноармеец ",
     "unit": "436 артиллерийский полк 112 стрелковой дивизии; 148 стрелковая дивизия; 104 запасной стрелковый полк 39 запасной стрелковой дивизии ",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "chukhno-aleksey-nikiforovich",
@@ -4964,7 +6416,11 @@
     "position": "стрелок",
     "unit": "176 армейский запасной стрелковый полк 51 стрелковая дивизия; 145 запасной стрелковый полк; 272 гвардейский стрелковый полк 90 гвардейской стрелковой дивизии ",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "shavrin-iakov-ivanovich",
@@ -4977,7 +6433,11 @@
     "rank": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sharkov-ivan-nikitovich",
@@ -4992,7 +6452,11 @@
     "position": "командир отделения взвода разведчиков",
     "unit": "1 гвардейская армия; 1056 стрелковый полк 48 гвардейской стрелковой дивизии; 138 гвардейский стрелковый полк 48 гвардейской стрелковой дивизии; 1 гвардейский танковый полк 1 гвардейской танковой бригады",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "shevchenko-alexey-fyodorovich",
@@ -5005,7 +6469,11 @@
     "rank": "лейтенант",
     "unit": "26-й отдельный прожекторный батальон",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "shevchenko-vasily-efimovich",
@@ -5019,7 +6487,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "shevchenko-vasily-semyenovich",
@@ -5032,7 +6504,11 @@
     "rank": "гвардии рядовой",
     "unit": "",
     "medals": "Орден Отечественной войны II степени; Медаль «За отвагу»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "shevchenko-ivan-egorovich",
@@ -5047,7 +6523,11 @@
     "position": "",
     "unit": "947 стрелковый полк 268 стрелковой дивизии",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "shevchenko-ivan-petrovich",
@@ -5061,7 +6541,11 @@
     "position": "шофёр",
     "unit": "6 артиллерийская дивизия прорыва ",
     "medals": "Орден Отечественной войны II степени; Орден Красной Звезды; Медаль «За оборону Москвы»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "shevchenko-pavel-semyenovich",
@@ -5075,7 +6559,11 @@
     "rank": "",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "shelkovnikov-alexey-petrovich",
@@ -5089,7 +6577,11 @@
     "position": "комсорг роты автоматчиков",
     "unit": "1124 стрелковый полк 334 стрелковой дивизии; 43 стрелковый полк; 334 стрелковая дивизия; Тихоокеанский флот; Группа советских оккупационных войск в Германии; 271 инж. б-н",
     "medals": "Орден Красной Звезды; Медаль «За отвагу»; Медаль «За боевые заслуги»; Медаль «За боевые заслуги»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "shelkovnikov-vasily-osipovich",
@@ -5102,7 +6594,11 @@
     "rank": "старший сержант",
     "unit": "799-й стрелковый полк 228-й стрелковой дивизии",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "sheremetyev-alexander-ivanovich",
@@ -5115,7 +6611,11 @@
     "rank": "сержант",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "shovikov-ivan-danilovich",
@@ -5129,7 +6629,11 @@
     "position": "старший разведчик",
     "unit": "156-й гвардейский артиллерийский Бранденбургский Краснознаменный ордена Суворова полк",
     "medals": "Орден Красного Знамени; Орден Отечественной войны II степени; Орден Красной Звезды; Орден Славы III степени; Медаль «За отвагу»; Медаль «За победу над Германией в Великой Отечественной войне 1941–1945 гг.»; Медаль «За взятие Берлина»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "shutko-ivan-egorovich",
@@ -5143,7 +6647,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "shchekota-ilya-pavlovich",
@@ -5155,7 +6663,11 @@
     "rank": "старшина",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "shchikota-fyodor-petrovich",
@@ -5167,7 +6679,11 @@
     "rank": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "yakovlev-leonid-semyonovich",
@@ -5180,7 +6696,11 @@
     "rank": "",
     "unit": "",
     "medals": "Орден Отечественной войны II степени",
-    "heroStory": ""
+    "heroStory": "",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "yarmoshin-mitrofan-kirillovich",
@@ -5193,7 +6713,11 @@
     "rank": "рядовой",
     "unit": "",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "yaroslavtsev-dmitriy-trofimovich",
@@ -5207,7 +6731,11 @@
     "position": "стрелок",
     "unit": "168 стрелковая дивизия; 367 стрелковый полк 71 стрелковой дивизии",
     "medals": "",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "yaroslavtsev-ivan-titovich",
@@ -5220,7 +6748,11 @@
     "position": "заряжающий СУ-122",
     "unit": "17 гвардейская танковая бригада",
     "medals": "Орден Отечественной войны I степени; Медаль «За отвагу»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   },
   {
     "slug": "yaroslavtsev-ivan-trofimovich",
@@ -5233,6 +6765,10 @@
     "position": "стрелок",
     "unit": "586 стрелковый полк",
     "medals": "Медаль «За боевые заслуги»",
-    "heroStory": "Документы о награждении"
+    "heroStory": "Документы о награждении",
+    "description": "",
+    "seoTitle": "",
+    "seoDescription": "",
+    "documents": []
   }
 ]
